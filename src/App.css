@@ -36,3 +36,669 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.App {
+  text-align: center;
+
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+ 
+}
+
+.mypic{
+  cursor: pointer;
+  animation: satyampp infinite 20s linear;
+}
+/* @keyframes satyampp {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+     transform: rotate(360deg);
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* --------navbar mobile-------- */
+@media all and  (min-width:80px) and (max-width:480px) {
+  .NavbarSubDiv{
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(1,auto);
+    /* height: auto; */
+    gap: 5px;
+    width: 100%;
+    justify-content:center
+    
+    
+  }
+  .NavbarSubDiv>div{
+    /* border: 1px solid red; */
+    width: 150px;
+  }
+.NavbarDiv{
+  height: 100px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: fixed;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.name_logo{
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.name_logo>span{
+  color: yellow;
+}
+.NavbarSubDiv Button{
+  background-color: rgb(39, 39, 39);
+/* background-color: none; */
+  
+}
+.NavbarSubDiv Button:hover{
+  color: grey;
+  background-color: yellow;
+
+}
+
+/* skill div mobile*/
+
+#skill{
+  /* border: 1px solid red; */
+  background: linear-gradient(rgb(139, 137, 137),rgb(79,79,80));
+
+}
+.SkillsDiv{
+  /* background-color: #6c6c6d; */
+}
+.SkillsDiv div{
+  /* border: 1px solid blue; */
+  cursor: pointer;
+  /* border: 1px solid red; */
+  /* backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(5px); */
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(1px); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 8px;
+width: 130px;
+height: 140px;
+padding-top: 10px;
+
+  
+}
+.SkillsDiv div:hover{
+  /* border: 1px solid blue; */
+  /* cursor: pointer; */
+   border: 1px solid transparent;
+   color: white;
+   /* background-color: transparent; */
+ 
+  
+}
+.SkillsDiv h2{
+  color: black;
+  margin-top: 10px;
+}
+
+
+.SkillsDiv>div>i{
+  font-size: 80px;
+  /* font-weight: 50px; */
+  /* color: #61dafb; */
+}
+
+.Chakra>img{
+  /* font-size: 80px; */
+  width: 80px;
+}
+
+/* project----mobile css */
+.projectDiv{
+  border: 1px solid red;
+  display: grid;
+  grid-template-rows: repeat(2,auto);
+  
+  /* width: 100%; */
+  justify-content: center;
+  background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
+  
+}
+.card{
+  border: 1ps solid green;
+  width: 20%;
+}
+
+  
+}
+
+
+/* ----Navbar-CSS--------- */
+
+@media screen and (min-width:481px) {
+  
+
+  .projectDiv{
+    /* border: 1px solid blue; */
+    height: 500px;
+    background-color:rgb(119, 117, 117);
+    background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
+    display: flex;
+    justify-content: space-evenly;
+    color: yellow;
+    
+  }
+
+  .card{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 400px;
+    margin-top: 80px;
+  }
+
+
+.NavbarDiv{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 50px;
+  /* background-color: rgb(80, 80, 80); */
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.name_logo{
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 25px;
+  cursor: pointer;
+  
+}
+.name_logo>span{
+  color: yellow;
+}
+.NavbarSubDiv{
+  /* border: 1px solid rgb(7, 7, 20); */
+  height: 80%;
+  width: 50%;
+  display: flex;
+  /* margin: auto; */
+  /* margin-top: 6px; */
+  justify-content: space-around;
+  padding: 5px;
+
+}
+
+.NavbarSubDiv>div{
+  box-shadow: rgba(184, 184, 184, 0.35) 0px 5px 15px;
+  border: none;
+   border-radius: 8px;
+}
+
+.NavbarSubDiv Button{
+  background-color: rgb(39, 39, 39);
+/* background-color: none; */
+color: rgb(221, 221, 85);
+  
+}
+.NavbarSubDiv Button:hover{
+  color: black;
+  background-color: yellow;
+
+}
+
+}
+/*--------------- About css ------------------*/
+.aboutDiv{
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid red; */
+  background-color: #6c6c6d;
+  background: linear-gradient(rgb(79, 79, 82),rgb(139, 137, 137));
+  color:rgb(43, 42, 42);
+}
+.aboutDiv>div{
+  margin-top: 100px;
+}
+.waviy{
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span{
+  /* font-family: 'Alfa Slab One', cursive; */
+  position:relative;
+  display: inline-block;
+  /* color: #fff; */
+  /* text-transform: uppercase; */
+  animation: waviy 3s infinite;
+  animation-delay: calc(.1s );
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(20)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+.about_description{
+
+}
+.about_text{
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  
+}
+.about_text+div{
+  width: 70%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.about_text+div>h1{
+  color: yellow;
+}
+
+
+.mypic{
+  
+  /* border-radius: 12px; */
+  border: 2px solid yellow;
+  height: 250px;
+  width: 240px;
+  margin-top: 80px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* -------------Home mobile css------------------ */
+
+@media screen and (min-width:80px) and (max-width:480px) {
+  .homeDiv{
+    border: 1px solid red;
+    
+  
+      border: 2px solid blue;
+      width: 100%;
+      /* height: 600px; */
+      /* display: flex; */
+      background-color: rgb(79, 79, 82);
+      color: rgb(241, 241, 82)
+      
+      
+      
+  }
+
+  .right_home_div>img{
+    border-radius: 50%;
+    border: 1px solid yellow;
+    width: 50%;
+    height: 240px;
+    margin-top: 150px;
+  }
+
+  .aboutDiv{
+    height: auto;
+    font-size: 12px;
+    /* text-align: center; */
+    justify-content: center;
+  }
+  .SkillsDiv{
+    /* border: 1px solid blue; */
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* margin: auto; */
+  }
+  
+}
+
+/* -----------Home css------ */
+
+@media screen and (min-width:481px)  {
+
+  
+
+
+.homeDiv{
+  
+border-top: 2px solid yellow;
+width: 100%;
+height: 600px;
+display: flex;
+background-color: rgb(79, 79, 82);
+color: rgb(241, 241, 82)
+
+}
+
+.homeDiv>div>h1{
+  font-size: 90px;
+}
+.left_home_div{
+  /* border: 2px solid blue; */
+  width: 50%;
+  margin-top: 150px;
+  height: 350px;
+  margin-left: 10%;
+}
+.right_home_div{
+  /* border: 1px solid red; */
+  width: 320px;
+  height: 350px;
+  margin-top: 150px;
+  margin-left: 10%;
+}
+.right_home_div>img{
+  border-radius: 50%;
+  border: 1px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.homeDiv>div>h2{
+  font-size: 50px;
+}
+.hey{
+  margin-left: -50%;
+}
+.hey>span{
+  color: red;
+}
+.socialIcon{
+  width: 300px;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+.linkedIn{
+  content: '';
+position:static;
+top: 0;
+left: -100px;
+width: 70px;
+height: 100%;
+/* background: rgba(255,255,255, 0.3); */
+/* transform: skewX(-30deg); */
+animation-name: slide;
+animation-duration: 4s;
+animation-timing-function: ease-in-out;
+animation-delay: .4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+/* background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  ); */
+}
+@keyframes slide {
+  0% {
+    left: -100;
+    top: 0;
+    color: rgb(0, 255, 255);
+  }
+  50% {
+    left: 120px;
+    top: 0px;
+    color: rgb(197, 25, 240);
+  }
+  100% {
+    left: 60px;
+    top: 0;
+    color: rgb(122, 252, 198)
+  }
+}
+#skill{
+  /* background-color: rgb(92, 92, 92); */
+  background: linear-gradient(rgb(139, 137, 137),rgb(79,79,80));
+  color: white;
+  /* display:flex; */
+  /* border: 1px solid blue; */
+  overflow:hidden;
+  height: 500px;
+  padding: 100px;
+}
+
+
+.Chakra>img{
+  width: 68px;
+  
+}
+.SkillsDiv{
+  height: 200px;
+
+  align-items: center;
+  display: flex;
+  /* border: 1px solid red; */
+  margin: auto;
+  gap: 10px;
+  margin-top: 80px;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.SkillsDiv div{
+  /* border: 1px solid blue; */
+  cursor: pointer;
+  /* border: 1px solid red; */
+  /* backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(5px); */
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(1px); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 8px;
+width: 130px;
+height: 140px;
+padding-top: 10px;
+
+  
+}
+.SkillsDiv div:hover{
+  /* border: 1px solid blue; */
+  /* cursor: pointer; */
+   border: 1px solid transparent;
+   color: white;
+   /* background-color: transparent; */
+ 
+  
+}
+.SkillsDiv h2{
+  color: black;
+  margin-top: 10px;
+}
+
+
+.SkillsDiv>div>i{
+  font-size: 80px;
+  /* font-weight: 50px; */
+  /* color: #61dafb; */
+}
+
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+/* --------- */
+/* ------------------------------------ */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.linkedIn i{
+  
+  font-size: 80px;
+  border-radius: 8px;
+
+}
+
+.github i{
+  font-size: 80px;
+  
+}
+.none{
+  display: none;
+  color: yellow;
+  
+}
+
+.linkedIn i:hover ,.linkedIn i:hover +div {
+  /* background-color: yellow; */
+  color:rgb(201, 201, 90);
+  display: block;
+  border: none;
+  cursor: pointer;
+  /* border: 1px solid red; */
+  
+
+
+
+}
+
+
+/*---------------------Skills Div---------------------------------- */
+
+
+a{
+
+  text-decoration: none;
+}
+
+/* ---------------------footer------------------------- */
+.footer{
+  /* border: 1px solid black; */
+  height: 30px;
+  background:linear-gradient(rgb(80, 79, 79),rgb(85, 84, 84));
+  color:yellow;
+
+  padding: 10px;
+
+ border-top: 0.5px  solid rgb(70, 69, 69);
+  
+}
+
+
+/* --------Projects section CSS----- */
+
+
+.card{
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 400px;
+  margin-top: 80px;
+}
+.card>div>img{
+  width: 100%;
+  height: 60%;
+  /* border: 2px solid yellow; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 8px;
+}
+.demobtn{
+  /* width: 89px; */
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid yellow;
+  border-radius: 8px;
+  margin: 5px;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-top: 15px;
+  
+}
+.demobtn:hover{
+  background-color: rgb(221, 221, 69);
+  cursor: pointer;
+  color: black;
+}
+.demobtn >a{
+  text-decoration: none;
+  color: white;
+}
+.demobtn>a:hover{
+  color:black;
+}
+
+
+
+/* --------HOME-CSSS ----------*/
+/* ----------------------------- */
+
+.home{
+  width: 100%;
+  height: 500px;
+  border: 1px solid green;
+}
+
+/* ------ContactasCss */
+/* -------------------- */
+.Contacts{
+  /* width: 100%; */
+  height: 200px;
+  padding: 30px;
+  /* border: 1px solid red; */
+  background-color:rgb(80, 79, 79);
+  background: linear-gradient(rgb(139, 137, 137),rgb(80,79,79));
+}
+.phone{
+  width: 50%;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+
+
+.footer>p>i{
+  color: red;
+}
+
+.homebtn>i{
+  margin-left: -40px;
+  font-size: 30px;
+}
