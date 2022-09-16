@@ -1,11 +1,13 @@
 .App {
   text-align: center;
+  position: absolute;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -88,6 +90,7 @@
   color: #61dafb;
 }
 /* --------navbar mobile-------- */
+/* ---------------------------------- */
 @media all and  (min-width:80px) and (max-width:480px) {
   .NavbarSubDiv{
     /* border: 2px solid green; */
@@ -135,27 +138,38 @@
 
 /* skill div mobile*/
 
-#skill{
-  /* border: 1px solid red; */
-  background: linear-gradient(rgb(139, 137, 137),rgb(79,79,80));
 
+
+
+#skill{
+  background-image: url("https://images.unsplash.com/photo-1584454238666-b3448a90d85f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-size: 100% ;
+  padding-top: 150px;
 }
 .SkillsDiv{
-  /* background-color: #6c6c6d; */
-}
-.SkillsDiv div{
   /* border: 1px solid blue; */
-  cursor: pointer;
+  display: grid;
+  width: 80%;
+  height: 500px;
+  grid-template-columns: repeat(2,130px);
+  grid-template-rows: repeat(5,100px);
+  margin: auto;
+  gap: 10px;
+  justify-content: center;
+  /* padding-top:150px ; */
+}
+
+.SkillsDiv div{
   /* border: 1px solid red; */
-  /* backdrop-filter: blur(35px);
-  -webkit-backdrop-filter: blur(5px); */
-  /* filter: blur(8px); */
-  /* -webkit-filter: blur(1px); */
+  /* margin: auto; */
+  /* width: 50%; */
+  cursor: pointer;
+ 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 border-radius: 8px;
-width: 130px;
-height: 140px;
+
 padding-top: 10px;
+background-color: grey;
 
   
 }
@@ -175,33 +189,81 @@ padding-top: 10px;
 
 
 .SkillsDiv>div>i{
-  font-size: 80px;
-  /* font-weight: 50px; */
-  /* color: #61dafb; */
+  font-size: 40px;
+ 
 }
 
 .Chakra>img{
   /* font-size: 80px; */
-  width: 80px;
+  width: 40px;
 }
 
 /* project----mobile css */
 .projectDiv{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
+  grid-template-columns: (100px,1fr);
   grid-template-rows: repeat(2,auto);
   
   /* width: 100%; */
   justify-content: center;
   background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
-  
+  padding-top: 120px;
+  background-image: url("https://images.unsplash.com/photo-1562229126-0cb2e7c2b2e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+  font-size: 16px;
+  /* color: red; */
+  font-weight: bolder;
 }
 .card{
-  border: 1ps solid green;
-  width: 20%;
+  /* border: 1px solid blue; */
+  width: 80%;
+  /* justify-content: center; */
+  margin: auto;
+  margin-bottom: 20px;
 }
 
+/* -----------contacts css for mobbile------- */
   
+#contacts{
+  width: 94%;
+  /* border: 1px solid blue; */
+  font-size: 7px;
+  background-image: url("https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  /* color: brown; */
+  font-weight: bolder;
+   text-decoration:overline;
+   padding: 10px;
+   background-size: 100% 100%;
+}
+.email_setup{
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  height: 200px;
+  /* gap: 20px; */
+}
+.email_setup input{
+  width: 150px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+#send_btn{
+  width: 50px;
+  background-color: rgb(241, 241, 127);
+  cursor: pointer;
+  border: 1px solid black;
+}
+textarea{
+  width: 130px;
+  height:50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 4px;
+  /* margin-left: 20px; */
+}
 }
 
 
@@ -212,20 +274,37 @@ padding-top: 10px;
 
   .projectDiv{
     /* border: 1px solid blue; */
-    height: 500px;
+    height: 600px;
     background-color:rgb(119, 117, 117);
     background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
-    color: yellow;
+    color:black;
+    /* font-size: 20px; */
+    font-weight: bolder;
+    background-image: url("https://images.unsplash.com/photo-1613744358026-dd879eba3a8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    background-size: 100%;
+    padding: 80px;
     
+  }
+  .project_card{
+    /* border: 1px solid blue; */
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 100px;
   }
 
   .card{
     /* border: 1px solid red; */
-    width: 300px;
+    width: 350px;
     height: 400px;
-    margin-top: 80px;
+    /* margin-top: 100px; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaNZdCuj2Nz_ExvFiU15824FdCepMm6hhDww&usqp=CAU");
+    border-radius: 10px;
+    background-size: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 
 
@@ -286,19 +365,59 @@ color: rgb(221, 221, 85);
 /*--------------- About css ------------------*/
 .aboutDiv{
   width: 100%;
-  height: 500px;
+  height: 600px;
   /* border: 1px solid red; */
   background-color: #6c6c6d;
   background: linear-gradient(rgb(79, 79, 82),rgb(139, 137, 137));
   color:rgb(43, 42, 42);
+  padding-top: 50px;
+  background-image: url("https://images.unsplash.com/photo-1629905679177-4c4e2623654f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=918&q=80");
+  background-size: 100% 100% ;
+  
+  
 }
-.aboutDiv>div{
-  margin-top: 100px;
+.about_div_img {
+  /* border: 2px solid red; */
+  /* border-top: 2px solid yellow; */
+  /* border-radius: 80%; */
+  width: 32%;
+  height: 420px;
+
+  /* margin: 10px; */
 }
+
+.about_div_img>img{
+  border-radius: 50%;
+  width: 95%;
+  height: 100%;
+}
+.about_flex{
+  display: flex;
+  /* border: 1px solid yellow; */
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+.about_description{
+ /* border: 1px solid blue; */
+ width: 65%;
+
+ 
+ 
+}
+.about_description>h2{
+  color:rgb(112, 111, 111);
+  font-weight: bolder;
+}
+
 .waviy{
   position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-  font-size: 60px;
+  font-size: 55px;
+  color: rgb(206, 143, 7);
 }
 .waviy span{
   /* font-family: 'Alfa Slab One', cursive; */
@@ -318,23 +437,16 @@ color: rgb(221, 221, 85);
   }
 }
 
-.about_description{
 
-}
 .about_text{
   font-size: 20px;
   text-decoration: underline;
   color: black;
+  font-weight: bolder;
   
 }
-.about_text+div{
-  width: 70%;
-  margin: auto;
-  /* border: 1px solid red; */
-}
-.about_text+div>h1{
-  color: yellow;
-}
+
+
 
 
 .mypic{
@@ -350,10 +462,10 @@ color: rgb(221, 221, 85);
 
 @media screen and (min-width:80px) and (max-width:480px) {
   .homeDiv{
-    border: 1px solid red;
+   
     
-  
-      border: 2px solid blue;
+  padding-top: 150px;
+      /* border: 2px solid blue; */
       width: 100%;
       /* height: 600px; */
       /* display: flex; */
@@ -375,18 +487,33 @@ color: rgb(221, 221, 85);
   .aboutDiv{
     height: auto;
     font-size: 12px;
-    /* text-align: center; */
+  /* border: 1px solid blue; */
     justify-content: center;
+    padding-top: 150px;
+   
   }
-  .SkillsDiv{
-    /* border: 1px solid blue; */
+  .about_flex{
+    /* border: 1px solid red; */
     display: grid;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    /* text-align: center; */
-    /* margin: auto; */
   }
+  .about_div_img{
+/* border: 1px solid teal; */
+margin: auto;
+width: 95%;
+  }
+
+  .about_description{
+    /* border: 1px solid yellow; */
+    width: 95%;
+    margin: auto;
+    
+  }
+  .about_description h2{
+    color: white;
+  }
+
+
+
   
 }
 
@@ -395,16 +522,21 @@ color: rgb(221, 221, 85);
 @media screen and (min-width:481px)  {
 
   
-
+.red_mark{
+  color: red;
+}
 
 .homeDiv{
-  
+background-image:url("https://images.unsplash.com/photo-1623520527569-fee1da87f598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");  
+background-size: 100% 130%;
+
 border-top: 2px solid yellow;
 width: 100%;
-height: 600px;
-display: flex;
+height: 650px;
+/* display: flex; */
 background-color: rgb(79, 79, 82);
-color: rgb(241, 241, 82)
+color: yellow
+
 
 }
 
@@ -413,24 +545,20 @@ color: rgb(241, 241, 82)
 }
 .left_home_div{
   /* border: 2px solid blue; */
-  width: 50%;
+  width: 99%;
   margin-top: 150px;
   height: 350px;
-  margin-left: 10%;
+  /* margin-left: 10%; */
+  /* margin: auto; */
 }
-.right_home_div{
-  /* border: 1px solid red; */
-  width: 320px;
-  height: 350px;
-  margin-top: 150px;
-  margin-left: 10%;
+.white_color{
+  color:yellow;
 }
-.right_home_div>img{
-  border-radius: 50%;
-  border: 1px solid yellow;
-  width: 100%;
-  height: 100%;
+.full_stack{
+  color: rgb(236, 240, 17);
 }
+
+
 .homeDiv>div>h2{
   font-size: 50px;
 }
@@ -447,6 +575,8 @@ color: rgb(241, 241, 82)
   display: flex;
   gap: 20px;
   padding: 10px;
+  margin-left: 75%;
+  margin-top: 10px;
 }
 .linkedIn{
   content: '';
@@ -458,7 +588,7 @@ height: 100%;
 /* background: rgba(255,255,255, 0.3); */
 /* transform: skewX(-30deg); */
 animation-name: slide;
-animation-duration: 4s;
+animation-duration: 2s;
 animation-timing-function: ease-in-out;
 animation-delay: .4s;
 animation-iteration-count: infinite;
@@ -475,17 +605,17 @@ animation-direction: alternate;
   0% {
     left: -100;
     top: 0;
-    color: rgb(0, 255, 255);
+    color: rgb(16, 245, 234);
   }
   50% {
     left: 120px;
     top: 0px;
-    color: rgb(197, 25, 240);
+    color: rgb(238, 159, 69);
   }
   100% {
     left: 60px;
     top: 0;
-    color: rgb(122, 252, 198)
+    color: rgb(30, 146, 240)
   }
 }
 #skill{
@@ -497,6 +627,8 @@ animation-direction: alternate;
   overflow:hidden;
   height: 500px;
   padding: 100px;
+  background-image: url("https://images.unsplash.com/photo-1539795845756-4fadad2905ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: 100%;
 }
 
 
@@ -530,6 +662,7 @@ border-radius: 8px;
 width: 130px;
 height: 140px;
 padding-top: 10px;
+background-image: url("https://images.unsplash.com/photo-1626613798997-cd0d975ef8a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
 
   
 }
@@ -554,11 +687,57 @@ padding-top: 10px;
   /* color: #61dafb; */
 }
 
+.email_setup{
+  /* border: 1px solid red; */
+  width: 25%;
+  height: 300px
+}
+.email_setup input{
+  width: 300px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+#send_btn{
+  width: 50px;
+  background-color: rgb(241, 241, 127);
+  cursor: pointer;
+  border: 1px solid black;
+}
+textarea{
+  width: 300px;
+  height:100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 4px;
+  /* margin-left: 20px; */
+}
+
+.Contacts{
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  padding: 30px;
+  /* border: 1px solid red; */
+  background-color:rgb(80, 79, 79);
+  background: linear-gradient(rgb(139, 137, 137),rgb(80,79,79));
+  background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+  background-size: 100%;
+}
+
+.contacts_details{
+  width: 55%;
+  /* border: 1px solid green; */
+  height: auto
+}
 
 }
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-/* --------- */
+
 /* ------------------------------------ */
 *{
     margin: 0px;
@@ -601,7 +780,6 @@ body{
 }
 
 
-/*---------------------Skills Div---------------------------------- */
 
 
 a{
@@ -626,12 +804,7 @@ a{
 /* --------Projects section CSS----- */
 
 
-.card{
-  /* border: 1px solid red; */
-  width: 300px;
-  height: 400px;
-  margin-top: 80px;
-}
+
 .card>div>img{
   width: 100%;
   height: 60%;
@@ -678,14 +851,7 @@ a{
 
 /* ------ContactasCss */
 /* -------------------- */
-.Contacts{
-  /* width: 100%; */
-  height: 200px;
-  padding: 30px;
-  /* border: 1px solid red; */
-  background-color:rgb(80, 79, 79);
-  background: linear-gradient(rgb(139, 137, 137),rgb(80,79,79));
-}
+
 .phone{
   width: 50%;
   margin: auto;

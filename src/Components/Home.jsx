@@ -18,13 +18,13 @@ import satyampp from "../Photo/satyampp.png"
  <div className="homeDiv">
                 
              
- <div className="right_home_div">
- <img src={satyampp} alt="asdas" />
- </div>
+
               <div className="left_home_div">
                         <h2 className="hey">Hey! i<span>'</span>m</h2>
-                        <h1> SATYAM</h1>
-                        <h2> •  Full Stack Web Developer  • </h2>
+                        <h1> SATYAM <span className="white_color">GUPTA</span> </h1>
+                        <br/>
+                        <br/>
+                        <h2 className="full_stack"> •  Full Stack Web Developer  • </h2>
                       <div className="socialIcon">
                     
                       <div className="linkedIn" onClick={linkedinLink}>

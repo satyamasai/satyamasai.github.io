@@ -8,9 +8,10 @@ const Skills=()=>{
 
         <br/>
         <br/>
+   
         <div style={{
             color:"black",
-            fontSize:"20px",
+            fontSize:"25px",
             fontWeight:"Bolder",
             textDecoration:"underline"
         }}>Skills</div>

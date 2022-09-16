@@ -9,11 +9,18 @@ const Projects=()=>{
     return(
         <>
 
-
         
         <div className="projectDiv" id="projectDiv">
+                
+                  <h1 style={{
+                    color:"yellow",
+                    
+                    textDecoration:"underline",
+                    
+                  }}>Projects</h1>
         
-        
+        <div className="project_card">
+      
                <div className="card">
                <div><img src={pharmaeasy} alt="" /></div>
                 <button className="demobtn"><a rel="noreferrer" target="_blank" href="https://cozy-naiad-3ca38b.netlify.app/index.html">VIEW</a></button>
@@ -30,7 +37,7 @@ const Projects=()=>{
                 <div><img src={ytclone} alt="" /></div>
                 <button className="demobtn"> <a rel="noreferrer" target="_blank" href="https://dapper-sawine-04c05a.netlify.app/">VIEW</a></button>
          
-                <button className="demobtn"><a rel="noreferrer" target="_blank" href="https://dapper-sawine-04c05a.netlify.app/">Saurce code</a></button>
+                <button className="demobtn"><a rel="noreferrer" target="_blank" href="https://dapper-sawine-04c05a.netlify.app/">Source code</a></button>
                 <br />
                 <br />
                 <p>* Youtube clone *</p>
@@ -39,7 +46,7 @@ const Projects=()=>{
          
                </div>
 
-
+               </div>
         </div>
         </>
     )
