@@ -28,7 +28,21 @@ const Projects=()=>{
                 <br />
                 <br />
                 <p>* Pharmeasy clone *</p>
-                
+                <div className="tech_stack">
+                <div>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+              </div>
+              <div>
+            
+              <i class="devicon-css3-plain-wordmark colored"></i>
+          
+            </div>
+            <div>
+            
+            <i class="devicon-javascript-plain colored"></i>
+          
+          </div>
+                </div>
                 <br />
                <p>this project made by HTML ,CSS and javascripts, moreover in this website clone i worked on the signup/login functionality add to cart functionality etc.</p>
                </div>
@@ -41,6 +55,22 @@ const Projects=()=>{
                 <br />
                 <br />
                 <p>* Youtube clone *</p>
+                <div className="tech_stack">
+                <div>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+              </div>
+              <div>
+            
+              <i class="devicon-css3-plain-wordmark colored"></i>
+          
+            </div>
+            <div>
+            
+            <i class="devicon-javascript-plain colored"></i>
+          
+          </div>
+                
+                </div>
                 <br />
          <p>i have made this project as a clone with html, javascripts and CSS and Youtube API with fetching functionality </p>
          
