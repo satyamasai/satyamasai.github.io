@@ -888,3 +888,27 @@ a{
   margin-left: -40px;
   font-size: 30px;
 }
+
+
+
+.GitHubCal{
+  /* width: 99.95%; */
+  /* border: 1px solid red; */
+  height: 230px;
+  padding: 20px;
+  justify-content: center;
+  background-color: rgb(146, 134, 134);
+  color: black;
+  background-image: url("https://images.unsplash.com/photo-1632516643720-e7f5d7d6ecc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=411&q=80");
+  
+  background-size: 100%;
+
+}
+.GitHubCal>div{
+  /* border: 1px solid blue; */
+  width: 72%;
+  padding: 5px;
+  margin:auto;
+  color: black;
+  height: 80%;
+}

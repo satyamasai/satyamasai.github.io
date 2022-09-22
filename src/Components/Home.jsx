@@ -1,12 +1,28 @@
 import satyampp from "../Photo/satyampp.png"
 
+
  const Home=()=>{
     const linkedinLink=()=>{
         window.open("https://www.linkedin.com/in/satyamgupta1516/","_blank")
     }
      const resumeLink = () => {
-        window.open("https://drive.google.com/file/d/1UEjwkyTh11LisM92upDy1uTDLvO_r5oQ/view?usp=sharing", "_blank");
-        }
+           
+      fetch('Satyam_Gupta_Resume_2022.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Satyam_Gupta_Resume_2022.pdf';
+            alink.click();
+        })
+    })
+
+        // window.open("https://drive.google.com/file/d/1UEjwkyTh11LisM92upDy1uTDLvO_r5oQ/view?usp=sharing", "_blank");
+        
+      
+      }
 
         const githubLink = () => {
             window.open("https://github.com/satyamasai", "_blank");

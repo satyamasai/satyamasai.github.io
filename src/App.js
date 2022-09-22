@@ -2,6 +2,7 @@
 import './App.css';
 import About from './Components/About';
 import Contacts from './Components/Contacts';
+import GitHubCal from './Components/GitHubCal';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
@@ -16,6 +17,7 @@ function App() {
            <About/>
            <Skills/>
            <Projects/>
+           <GitHubCal/>
            <Contacts/>
 
            <div className='footer'>
