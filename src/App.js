@@ -1,5 +1,8 @@
 
 import './App.css';
+import ".//mediaQuery/small.css";
+import ".//mediaQuery/large.css";
+
 import About from './Components/About';
 import Contacts from './Components/Contacts';
 import GitHubCal from './Components/GitHubCal';
@@ -8,10 +11,12 @@ import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 
+
+
 function App() {
   return (
     <div className="App">
-  
+              
            <Navbar/>
            <Home/>
            <About/>

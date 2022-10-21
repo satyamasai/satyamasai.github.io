@@ -1,0 +1,280 @@
+@media all and  (min-width:80px) and (max-width:480px) {
+    .NavbarSubDiv{
+      /* border: 2px solid green; */
+      display: grid;
+      grid-template-columns:repeat(2,1fr);
+      grid-template-rows: repeat(1,auto);
+      /* height: auto; */
+      gap: 5px;
+      width: 100%;
+      /* visibility: hidden; */
+      /* display: none; */
+      justify-content:center
+    
+      
+      
+    }
+    .NavbarSubDiv>div{
+      /* border: 1px solid red; */
+      width: 150px;
+    }
+  .NavbarDiv{
+    /* height: 40px; */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    /* border: 1px solid red; */
+    width: 100%;
+    z-index: 1;
+  }
+  .name_logo{
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: grey;
+  /* border: 1px solid red; */
+  /* width: 50px ;
+  height: 40px; */
+  }
+  
+  .name_logo>span{
+    color: yellow;
+  }
+  .NavbarSubDiv Button{
+    background-color: rgb(39, 39, 39);
+  /* background-color: none; */
+    
+  }
+  .NavbarSubDiv Button:hover{
+    color: grey;
+    background-color: yellow;
+  
+  }
+  
+  /* skill div mobile*/
+  
+  
+  
+  
+  #skill{
+     background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); 
+    background-size: 100% ;
+    padding-top: 100px;
+    color: yellow;
+    height: 600px;
+    
+  }
+  .SkillsDiv{
+    /* border: 1px solid blue; */
+    padding-top: 20px;
+    display: grid;
+    width: 80%;
+    height: 450px;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: repeat(5,100px);
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    backdrop-filter: blur(30px);
+    /* padding-top:150px ; */
+    border-radius: 10px;
+
+  }
+  
+  .SkillsDiv div{
+    /* border: 1px solid red; */
+    /* margin: auto; */
+    /* width: 50%; */
+    cursor: pointer;
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 8px;
+  
+  padding-top: 10px;
+  /* width: 90px; */
+  
+    
+  }
+  .SkillsDiv div:hover{
+    /* border: 1px solid blue; */
+    /* cursor: pointer; */
+     border: 1px solid transparent;
+     color: white;
+     /* background-color: transparent; */
+   
+  
+    }
+  .SkillsDiv h2{
+    color: black;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  
+  .SkillsDiv>div>i{
+    font-size: 40px;
+   
+  }
+  
+  .Chakra>img{
+    /* font-size: 80px; */
+    width: 40px;
+  }
+  
+  /* project----mobile css */
+  .projectDiv{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: (100px,1fr);
+    grid-template-rows: repeat(2,auto);
+    
+    /* width: 100%; */
+    justify-content: center;
+    background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
+    padding-top: 120px;
+    background-image: url("https://images.unsplash.com/photo-1630305107616-64fde2a71808?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    font-size: 16px;
+    /* color: red; */
+    font-weight: bolder;
+    background-size: 100% 100% ;
+  }
+  .card{
+    /* border: 1px solid blue; */
+    width: 80%;
+    /* justify-content: center; */
+    margin: auto;
+    margin-bottom: 20px;
+    color: rgba(194, 188, 188, 0.918);
+    backdrop-filter: blur(15px);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .tech_stack>div i{
+    /* border: 1px solid red; */
+    font-size: 30px;
+  }
+
+  .tech_stack{
+    /* border: 1px solid green; */
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    pad: 5px;
+  }
+
+  /* github=-------- */
+  .cal{
+    /* border: 1px solid blue; */
+    width: 95%;
+  
+    padding: 5px;
+    /* margin:auto; */
+    color: yellow;
+    /* height: 90%; */
+    /* font-size: 40px; */
+    margin: auto;
+    /* padding: 2% 2% 2% 15%; */
+  
+  
+  }
+  
+  
+  /* -----------contacts css for mobbile------- */
+    
+  #contacts{
+    width: 100%;
+    /* border: 1px solid blue; */
+    font-size: 7px;
+    background-image: url("https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    /* color: brown; */
+    font-weight: bolder;
+     text-decoration:overline;
+     padding: 10px;
+     background-size: 100% 100%;
+  }
+  .email_setup{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    /* gap: 20px; */
+  }
+  .email_setup input{
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  #send_btn{
+    width: 50px;
+    background-color: rgb(241, 241, 127);
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  textarea{
+    width: 130px;
+    height:50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    /* margin-left: 20px; */
+  }
+
+
+
+  .homeDiv{
+    background-image:url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");  
+    background-size: 100% 130%;
+    
+  padding-top: 150px;
+      /* border: 2px solid blue; */
+      width: 100%;
+      /* height: 600px; */
+      /* display: flex; */
+      /* background-color: rgb(79, 79, 82); */
+      color: rgb(241, 241, 82)
+      
+      
+      
+  }
+
+  .right_home_div>img{
+    border-radius: 50%;
+    border: 1px solid yellow;
+    width: 50%;
+    height: 240px;
+    margin-top: 150px;
+  }
+
+  .aboutDiv{
+    height: auto;
+    font-size: 12px;
+  /* border: 1px solid blue; */
+    justify-content: center;
+    padding-top: 150px;
+   
+  }
+  .about_flex{
+    /* border: 1px solid red; */
+    display: grid;
+  }
+  .about_div_img{
+/* border: 1px solid teal; */
+margin: auto;
+width: 95%;
+  }
+
+  .about_description{
+    /* border: 1px solid yellow; */
+    width: 95%;
+    margin: auto;
+    
+  }
+  .about_description h2{
+    color: white;
+  }
+
+  }
