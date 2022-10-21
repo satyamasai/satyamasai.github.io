@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a06917b.css",
-    "main.js": "/static/js/main.2d1d185d.js",
+    "main.css": "/static/css/main.2c148955.css",
+    "main.js": "/static/js/main.f7b5c0a6.js",
     "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
     "static/media/ytclone.jpg": "/static/media/ytclone.032be234b64a470d08d2.jpg",
     "static/media/pharmaeasy-snap.jpg": "/static/media/pharmaeasy-snap.e3c69c642e931db869b8.jpg",
     "static/media/satyampp.png": "/static/media/satyampp.da11b6b95d5542005172.png",
     "index.html": "/index.html",
-    "main.3a06917b.css.map": "/static/css/main.3a06917b.css.map",
-    "main.2d1d185d.js.map": "/static/js/main.2d1d185d.js.map",
+    "main.2c148955.css.map": "/static/css/main.2c148955.css.map",
+    "main.f7b5c0a6.js.map": "/static/js/main.f7b5c0a6.js.map",
     "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a06917b.css",
-    "static/js/main.2d1d185d.js"
+    "static/css/main.2c148955.css",
+    "static/js/main.f7b5c0a6.js"
   ]
 }
