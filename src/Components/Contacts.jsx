@@ -27,6 +27,9 @@ const Contacts = () => {
       alert("Please enter correct input!");
     }
   };
+
+
+  
   return (
     <div className="Contacts" id="contacts">
       <h1
