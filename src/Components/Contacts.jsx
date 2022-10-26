@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef} from "react";
 import emailjs from "@emailjs/browser";
 
 const Contacts = () => {
@@ -29,7 +29,7 @@ const Contacts = () => {
   };
 
 
-  
+
   return (
     <div className="Contacts" id="contacts">
       <h1

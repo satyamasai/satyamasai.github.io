@@ -44,7 +44,7 @@ const Home = () => {
   },[0])
 
   return (
-    <div className="homeDiv">
+    <div className="homeDiv" id="home">
       <div className="left_home_div">
         <h2 className="hey">
           Hey! i<span>'</span>m

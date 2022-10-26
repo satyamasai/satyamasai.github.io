@@ -10,20 +10,23 @@ import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
+import NewNavbar from './Components/NewNavbar';
+import AllRoutes from './Components/AllRoutes';
 
 
 
 function App() {
   return (
     <div className="App">
-              
-           <Navbar/>
-           <Home/>
-           <About/>
-           <Skills/>
-           <Projects/>
-           <GitHubCal/>
-           <Contacts/>
+    <NewNavbar/>
+    <Home/>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <GitHubCal/>
+    <Contacts/>
+          
+         
 
            <div className='footer'>
             <p> Made with <i class="fa-solid fa-heart"></i> by Satyam Gupta, 2022 </p>
