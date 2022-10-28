@@ -1,5 +1,6 @@
 import pharmaeasy from "../Photo/pharmaeasy-snap.jpg";
 import ytclone from "../Photo/ytclone.jpg";
+import urbancp from "../Photo/urbancp.jpg";
 
 const Projects = () => {
   return (
@@ -59,7 +60,7 @@ const Projects = () => {
               cart functionality etc.
             </p>
           </div>
-
+          {/*  2nd project card */}
           <div className="card">
             <div>
               <img src={ytclone} alt="" />
@@ -87,6 +88,52 @@ const Projects = () => {
             <br />
             <br />
             <p>* Youtube clone *</p>
+            <div className="tech_stack">
+              <div>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+              </div>
+              <div>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+              </div>
+              <div>
+                <i class="devicon-javascript-plain colored"></i>
+              </div>
+            </div>
+            <br />
+            <p>
+              i have made this project as a clone with html, javascripts and CSS
+              and Youtube API with fetching functionality{" "}
+            </p>
+          </div>
+
+          {/*  3rd project card */}
+          <div className="card">
+            <div>
+              <img src={urbancp} alt="" />
+            </div>
+            <button className="demobtn">
+              {" "}
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://urban-company-ruddy.vercel.app/"
+              >
+                VIEW
+              </a>
+            </button>
+
+            <button className="demobtn">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://github.com/sonuprasad66/tense-visitor-349"
+              >
+                Source code
+              </a>
+            </button>
+            <br />
+            <br />
+            <p>* Urban company clone *</p>
             <div className="tech_stack">
               <div>
                 <i class="devicon-html5-plain-wordmark colored"></i>

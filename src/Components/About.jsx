@@ -1,4 +1,4 @@
-import satyampp from "../Photo/satyampp.png";
+import satyampq from "../Photo/satyampq.png";
 
 const About = () => {
   return (
@@ -6,7 +6,7 @@ const About = () => {
       <div className="about_text">About</div>
       <div className="about_flex">
         <div className="about_div_img">
-          <img src={satyampp} alt="" />
+          <img src={satyampq} alt="" />
         </div>
 
         <div className="about_description">
