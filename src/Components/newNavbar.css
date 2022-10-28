@@ -93,7 +93,7 @@ scroll-behavior: smooth;
       display: flex;
       flex-direction: column;
       width: 100%;
-      border-top: 1pxsolid #fff;
+      border-top: 1px solid #fff;
       position: absolute;
       top: 80px;
       left: -110%;

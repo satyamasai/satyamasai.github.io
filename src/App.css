@@ -2,15 +2,13 @@
   text-align: center;
   position: absolute;
 }
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,28 +24,19 @@
   color: #61dafb;
 }
 
-
-
-
 .App {
   text-align: center;
-
 }
 
-*{
-  scroll-behavior:smooth;
+* {
+  scroll-behavior: smooth;
 }
 
-
-
-
-
-.mypic{
+.mypic {
   cursor: pointer;
   animation: satyampp infinite 20s linear;
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -63,21 +52,17 @@
   color: #61dafb;
 }
 
-
-
 /*--------------- About css ------------------*/
-.aboutDiv{
+.aboutDiv {
   width: 100%;
   height: 600px;
   /* border: 1px solid red; */
- 
-  color:rgb(61, 50, 50);
+
+  color: rgb(146, 140, 140);
   padding-top: 50px;
- 
-  background-color:black;
-  background-size: 100% 100% ;
-  
-  
+
+  background-color: black;
+  background-size: 100% 100%;
 }
 .about_div_img {
   /* border: 2px solid red; */
@@ -89,14 +74,14 @@
   /* margin: 10px; */
 }
 
-.about_div_img>img{
+.about_div_img > img {
   /* border-radius: 50%; */
   width: 95%;
   height: 95%;
-  border-bottom-left-radius:12%;
-  border-bottom-right-radius:12%;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
 }
-.about_flex{
+.about_flex {
   display: flex;
   /* border: 1px solid yellow; */
   flex-wrap: wrap;
@@ -106,144 +91,119 @@
   margin: auto;
 }
 
-.about_description{
- /* border: 1px solid blue; */
- width: 65%;
-
- 
- 
+.about_description {
+  /* border: 1px solid blue; */
+  width: 65%;
 }
-.about_description>h2{
+.about_description > h2 {
   /* color:rgb(112, 111, 111); */
   font-weight: bolder;
 }
 
-.waviy{
+.waviy {
   position: relative;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
   font-size: 55px;
   color: rgb(206, 143, 7);
 }
-.waviy span{
+.waviy span {
   /* font-family: 'Alfa Slab One', cursive; */
-  position:relative;
+  position: relative;
   display: inline-block;
   /* color: #fff; */
   /* text-transform: uppercase; */
   animation: waviy 3s infinite;
-  animation-delay: calc(.1s );
+  animation-delay: calc(0.1s);
 }
 @keyframes waviy {
-  0%,40%,100% {
-    transform: translateY(20)
+  0%,
+  40%,
+  100% {
+    transform: translateY(20);
   }
   20% {
-    transform: translateY(-20px)
+    transform: translateY(-20px);
   }
 }
 
-
-.about_text{
+.about_text {
   font-size: 20px;
   text-decoration: underline;
   color: black;
   font-weight: bolder;
-  
 }
 
-
-
-
-.mypic{
-  
+.mypic {
   /* border-radius: 12px; */
   border: 2px solid yellow;
   height: 250px;
   width: 240px;
   margin-top: 80px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-
-
-
-
-
-
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    font-family: 'Exo', sans-serif;
+body {
+  font-family: "Exo", sans-serif;
 }
 
-
-.linkedIn i{
-  
+.linkedIn i {
   font-size: 80px;
   border-radius: 8px;
-
 }
 
-.github i{
+.github i {
   font-size: 80px;
-  
 }
-.none{
+.none {
   display: none;
   color: yellow;
-  
 }
 
-.linkedIn i:hover ,.linkedIn i:hover +div {
+.linkedIn i:hover,
+.linkedIn i:hover + div {
   /* background-color: yellow; */
-  color:rgb(201, 201, 90);
+  color: rgb(201, 201, 90);
   display: block;
   border: none;
   cursor: pointer;
   /* border: 1px solid red; */
-  
-
-
-
 }
 
-
-
-
-a{
-
+a {
   text-decoration: none;
 }
 
 /* ---------------------footer------------------------- */
-.footer{
+.footer {
   /* border: 1px solid black; */
   height: 30px;
-  background:linear-gradient(rgb(80, 79, 79),rgb(85, 84, 84));
-  color:yellow;
+  background: linear-gradient(rgb(80, 79, 79), rgb(85, 84, 84));
+  color: yellow;
 
   padding: 10px;
 
- border-top: 0.5px  solid rgb(70, 69, 69);
-  
+  border-top: 0.5px solid rgb(70, 69, 69);
 }
-
 
 /* --------Projects section CSS----- */
 
-
-
-.card>div>img{
+.card > div > img {
   width: 100%;
   height: 60%;
   /* border: 2px solid yellow; */
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 8px;
 }
-.demobtn{
+.demobtn {
   /* width: 89px; */
   height: 35px;
   background-color: transparent;
@@ -254,27 +214,24 @@ a{
   text-transform: uppercase;
   padding: 5px;
   margin-top: 15px;
-  
 }
-.demobtn:hover{
+.demobtn:hover {
   background-color: rgb(221, 221, 69);
   cursor: pointer;
   color: black;
 }
-.demobtn >a{
+.demobtn > a {
   text-decoration: none;
   color: white;
 }
-.demobtn>a:hover{
-  color:black;
+.demobtn > a:hover {
+  color: black;
 }
-
-
 
 /* --------HOME-CSSS ----------*/
 /* ----------------------------- */
 
-.home{
+.home {
   width: 100%;
   height: 500px;
   border: 1px solid green;
@@ -283,45 +240,37 @@ a{
 /* ------ContactasCss */
 /* -------------------- */
 
-.phone{
+.phone {
   width: 50%;
   margin: auto;
   /* border: 1px solid red; */
   margin-top: 20px;
 }
 
-
-.footer>p>i{
+.footer > p > i {
   color: red;
 }
 
-.homebtn>i{
+.homebtn > i {
   margin-left: -40px;
   font-size: 30px;
 }
 
-
-
-.GitHubCal{
+.GitHubCal {
   /* width: 99.95%; */
   /* border: 1px solid red; */
   height: 230px;
   padding: 20px;
   justify-content: center;
   background-color: rgb(146, 134, 134);
-  color:green;
+  color: green;
   background-image: url("https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-  
-  background-size: 100%;
-/* color-scheme: grey; */
 
+  background-size: 100%;
+  /* color-scheme: grey; */
 }
 
-
-
-
-.homeDiv{
+.homeDiv {
   width: 100%;
   /* border: 1px solid red; */
 }
-
