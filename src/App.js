@@ -11,7 +11,8 @@ import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import NewNavbar from './Components/NewNavbar';
-import AllRoutes from './Components/AllRoutes';
+import Practice from './Components/Practice';
+
 
 
 
@@ -22,6 +23,7 @@ function App() {
     <Home/>
     <About/>
     <Skills/>
+    <Practice/>
     <Projects/>
     <GitHubCal/>
     <Contacts/>
