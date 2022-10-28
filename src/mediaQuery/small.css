@@ -58,10 +58,10 @@
   
   #skill{
      background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); 
-    background-size: 100% ;
-    padding-top: 100px;
+    background-size: 100% 100%;
+    padding-top: 50px;
     color: yellow;
-    height: 600px;
+    height: 650px;
     
   }
   .SkillsDiv{
@@ -69,15 +69,18 @@
     padding-top: 20px;
     display: grid;
     width: 80%;
-    height: 450px;
+    height: 80%;
     grid-template-columns: repeat(2,100px);
     grid-template-rows: repeat(5,100px);
     margin: auto;
+    margin-top: 10px;
     gap: 10px;
     justify-content: center;
     backdrop-filter: blur(30px);
     /* padding-top:150px ; */
-    border-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:30px ;
+    border: 1px solid grey;
 
   }
   
@@ -91,6 +94,7 @@
   border-radius: 8px;
   
   padding-top: 10px;
+  
   /* width: 90px; */
   
     
@@ -285,7 +289,7 @@ width: 95%;
     height: 750px;
     /* border: 1px solid red; */
     background-image: url("https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-    background-size: 100%;
+    background-size: 100% 100%;
     position: relative;
    
 }
