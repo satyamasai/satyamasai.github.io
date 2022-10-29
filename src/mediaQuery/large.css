@@ -308,27 +308,33 @@
   .email_setup{
     /* border: 1px solid red; */
     width: 25%;
-    height: 300px
+    height: 300px;
+    color: aquagit ;
+   
   }
   .email_setup input{
     width: 300px;
     height: 25px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 0 10px 0 10px;
     border: 1px solid black;
     padding: 5px;
+    
   }
   #send_btn{
-    width: 50px;
-    background-color: rgb(241, 241, 127);
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(44, 62, 94);
     cursor: pointer;
     border: 1px solid black;
+    color: aqua;
   }
   textarea{
     width: 300px;
     height:100px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 0 10px 0 10px;
     padding: 4px;
     /* margin-left: 20px; */
   }
@@ -342,7 +348,7 @@
     /* border: 1px solid red; */
     background-color:rgb(80, 79, 79);
     background: linear-gradient(rgb(139, 137, 137),rgb(80,79,79));
-    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    background-image: url("https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
     background-size: 100%;
   }
   
@@ -351,6 +357,17 @@
     /* border: 1px solid green; */
     height: auto
   }
+.phone{
+    border: 2px solid rgba(30, 30, 31, 0.486);
+    width: 420px;
+    height: 260px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 0 30px 0 30px;
+}
+
+
+
   .hamburger{
     display: none;
 
