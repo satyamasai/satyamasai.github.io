@@ -5,7 +5,6 @@ const Skills = () => {
       <br />
       <div
         style={{
-        
           fontSize: "25px",
           fontWeight: "Bolder",
           textDecoration: "underline",

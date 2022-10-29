@@ -239,9 +239,10 @@
     /* border: 1px solid blue; */
     overflow:hidden;
     height: 500px;
-    padding: 80px;
+    padding: 20px;
     background-image: url("https://images.unsplash.com/photo-1560762484-813fc97650a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
     background-size: 100%;
+    
   }
   
   
@@ -250,22 +251,24 @@
     
   }
   .SkillsDiv{
-    height: 400px;
+    height: 300px;
   
     align-items: center;
     display: flex;
-    /* border: 1px solid red; */
+    border: 2px solid rgb(122, 118, 118);
     margin: auto;
     gap: 10px;
     margin-top: 20px;
-    width: 100%;
+    width: 90%;
     justify-content: space-evenly;
     flex-wrap: wrap;
     backdrop-filter: blur(20px);
-    border-radius: 12px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
   }
   .SkillsDiv div{
-    border: 2px solid rgba(80, 77, 77, 0.404);
+    border: 2px solid rgba(130, 136, 129, 0.459);
     cursor: pointer;
     
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -275,7 +278,10 @@
   padding-top: 10px;
   backdrop-filter: blur(15px);
   background-color:rgba(255, 0, 0, 0.116);
-  
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
     
   }
   .SkillsDiv div:hover{
