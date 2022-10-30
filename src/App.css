@@ -30,6 +30,7 @@
 
 * {
   scroll-behavior: smooth;
+  transition: .15s ease
 }
 
 .mypic {
@@ -268,6 +269,11 @@ a {
 
   background-size: 100%;
   /* color-scheme: grey; */
+}
+
+
+.cal{
+  border: 1px solid red;
 }
 
 .homeDiv {
