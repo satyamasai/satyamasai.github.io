@@ -55,8 +55,8 @@ const Projects = () => {
             </div>
             <br />
             <p>
-              this project made by HTML ,CSS and javascripts, moreover in this
-              website clone i worked on the signup/login functionality add to
+              This project made by HTML ,CSS and javascripts, moreover in this
+              website clone I worked on the signup/login functionality add to
               cart functionality etc.
             </p>
           </div>
@@ -101,7 +101,7 @@ const Projects = () => {
             </div>
             <br />
             <p>
-              i have made this project as a clone with html, javascripts and CSS
+              I have made this project as a clone with html, javascripts, CSS
               and Youtube API with fetching functionality{" "}
             </p>
           </div>
@@ -147,8 +147,8 @@ const Projects = () => {
             </div>
             <br />
             <p>
-              i have made this project as a clone with html, javascripts and CSS
-              and Youtube API with fetching functionality{" "}
+            
+            Urban Company is Asia's largest online home services platform.The platform helps customers book reliable & high quality services - beauty treatments, massages, haircuts, home cleaning and many more..{" "}
             </p>
           </div>
         </div>
