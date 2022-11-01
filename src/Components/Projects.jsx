@@ -11,6 +11,7 @@ const Projects = () => {
             color: "yellow",
 
             textDecoration: "underline",
+
           }}
         >
           Projects

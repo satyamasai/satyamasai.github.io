@@ -3,7 +3,7 @@
 
     .projectDiv{
       /* border: 1px solid blue; */
-      height: 600px;
+      height: 650px;
       background-color:rgb(119, 117, 117);
       background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
       /* display: flex; */
@@ -13,18 +13,21 @@
       font-weight: bolder;
       background-image: url("https://images.unsplash.com/photo-1607706009771-de8808640bcf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
       background-size: 100%;
-      padding: 80px;
+      /* padding: 80px; */
+      width: 100%;
       
     }
     .project_card{
-      /* border: 1px solid blue; */
+      border-bottom: 2px solid black;
+      width: 90%;
       display: flex;
       margin: auto;
       /* width: 80%; */
+      padding: 10px;
       
-      justify-content: space-between;
+      justify-content: space-around;
       gap: 15px;
-      margin-top: 100px;
+      margin-top: 80px;
     }
   
     .card{
@@ -256,7 +259,9 @@
   
     align-items: center;
     display: flex;
-    border: 2px solid rgb(122, 118, 118);
+    /* border: 2px solid rgb(122, 118, 118);
+     */
+     border: 2px solid rgba(51, 221, 213, 0.384);
     margin: auto;
     gap: 10px;
     margin-top: 20px;
