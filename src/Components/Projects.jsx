@@ -56,9 +56,7 @@ const Projects = () => {
             </div>
             <br />
             <p>
-              This project made by HTML ,CSS and javascripts, moreover in this
-              website clone I worked on the signup/login functionality add to
-              cart functionality etc.
+              This is e-commerce website with the functionality of coupan code, add to cart and signup/login.
             </p>
           </div>
           {/*  2nd project card */}

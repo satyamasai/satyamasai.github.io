@@ -185,12 +185,13 @@ a {
 .footer {
   /* border: 1px solid black; */
   height: 30px;
-  background: linear-gradient(rgb(80, 79, 79), rgb(85, 84, 84));
-  color: yellow;
+  /* background: linear-gradient(rgb(80, 79, 79), rgb(85, 84, 84)); */
+  background-color: black;
+  color: goldenrod;
 
   padding: 10px;
 
-  border-top: 0.5px solid rgb(70, 69, 69);
+  /* border-top: 0.5px solid rgb(70, 69, 69); */
 }
 
 /* --------Projects section CSS----- */

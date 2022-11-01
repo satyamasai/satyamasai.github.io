@@ -1,3 +1,4 @@
+import { background } from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 
@@ -8,7 +9,11 @@ const GitHubCal = () => {
       <br />
 
       <div className="cal">
-        <GitHubCalendar username="satyamasai" />
+        <GitHubCalendar style={{
+          width:"100%",
+        
+       backdropFilter:"blur(90px)" 
+        }} username="satyamasai" />
       </div>
     </div>
   );
