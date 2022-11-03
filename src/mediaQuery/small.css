@@ -1,4 +1,5 @@
 @media all and  (min-width:80px) and (max-width:480px) {
+  
     .NavbarSubDiv{
       /* border: 2px solid green; */
       display: grid;
@@ -136,7 +137,7 @@
     justify-content: center;
     background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
     padding-top: 120px;
-    background-image: url("https://images.unsplash.com/photo-1630305107616-64fde2a71808?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-image: url("https://images.unsplash.com/photo-1665855016165-2012bb8de0cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
     font-size: 16px;
     /* color: red; */
     font-weight: bolder;
@@ -233,25 +234,51 @@
     background-image:url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");  
     background-size: 100% 130%;
     
-  padding-top: 150px;
+  padding-top: 50px;
       /* border: 2px solid blue; */
       width: 100%;
-      /* height: 600px; */
+      height: 500px;
       /* display: flex; */
       /* background-color: rgb(79, 79, 82); */
-      color: rgb(241, 241, 82)
+      color: goldenrod
       
       
       
   }
 
-  .right_home_div>img{
-    border-radius: 50%;
-    border: 1px solid yellow;
-    width: 50%;
-    height: 240px;
-    margin-top: 150px;
+  .left_home_div{
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    margin-top: 80px;
+    border: 2px solid rgba(100, 100, 100, 0.507);
+   padding-top: 10px;
+    backdrop-filter: blur(30px);
+    border-radius: 30px 30px 0 0;
+
+
+
+    animation-name: slide;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation: loader 1.25s ease-in-out;
+    
+}
+@keyframes loader {
+  0% {
+    rotate: 0deg;
   }
+  100% {
+    /* border-radius: 50%; */
+    rotate: 360deg;
+  }
+}
+
+
+ 
 
   .aboutDiv{
     height: auto;

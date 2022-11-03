@@ -3,7 +3,7 @@ scroll-behavior: smooth;
 }
 .navbar {
     /* background-color: #1f5156; */
-    height: 80px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ scroll-behavior: smooth;
     /* margin-left: 20px; */
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     /* flex-grow: 1; */
   }
   

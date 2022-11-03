@@ -2,13 +2,13 @@
 import './App.css';
 import ".//mediaQuery/small.css";
 import ".//mediaQuery/large.css";
-import ".//mediaQuery/medium.css"
+import ".//mediaQuery/medium.css";  
 
 import About from './Components/About';
 import Contacts from './Components/Contacts';
 import GitHubCal from './Components/GitHubCal';
 import Home from './Components/Home';
-import Navbar from './Components/Navbar';
+
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import NewNavbar from './Components/NewNavbar';

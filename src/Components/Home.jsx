@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import "../mediaQuery/medium.css"
 
 // import satyampp from "../Photo/satyampp.png";
 
@@ -8,14 +9,14 @@ const Home = () => {
     window.open("https://www.linkedin.com/in/satyamgupta1516/", "_blank");
   };
   const resumeLink = () => {
-    fetch("Satyam_Gupta_Resume_2022.pdf").then((response) => {
+    fetch("Satyam_Gupta_Resume.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Satyam_Gupta_Resume_2022.pdf";
+        alink.download = "Satyam_Gupta_Resume.pdf";
         alink.click();
       });
     });
@@ -30,18 +31,20 @@ const Home = () => {
   const [prof, setProf] = useState("" || "Full Stack Web Developer");
   const profession = ["Full Stack Web Developer", "Web Designer"];
   // let i = 0;
-  
-  useEffect((i)=>{
 
-    setInterval(() => {
-    if(i===0){
-     i=1
-    }else{
-     i=0
-    }
-     setProf(profession[i]);
-   }, 1000);
-  },[0])
+  useEffect(
+    (i) => {
+      setInterval(() => {
+        if (i === 0) {
+          i = 1;
+        } else {
+          i = 0;
+        }
+        setProf(profession[i]);
+      }, 1000);
+    },
+    [0]
+  );
 
   return (
     <div className="homeDiv" id="home">
@@ -55,7 +58,7 @@ const Home = () => {
         </h1>
         <br />
         <br />
-        <h2 className="full_stack"> •  {prof}  • </h2>
+        <h2 className="full_stack"> • {prof} • </h2>
         <div className="socialIcon">
           <div className="linkedIn" onClick={linkedinLink}>
             <i class="fa-brands fa-linkedin"></i>

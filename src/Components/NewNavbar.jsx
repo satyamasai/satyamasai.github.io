@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import "./newNavbar.css";
+import "../mediaQuery/small.css"
 
 const  NewNavbar = ()=> {
   const [click, setClick] = useState(false);
@@ -11,7 +12,7 @@ const  NewNavbar = ()=> {
       <nav className="navbar">
         <div className="nav-container">
           <a href="#home" className="nav-logo">
-            SatyamGupta
+            SG
             <i className="fas fa-code"></i>
           </a>
 
