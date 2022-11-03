@@ -18,7 +18,7 @@ const Projects = () => {
         </h1>
 
         <div className="project_card">
-          <div className="card">
+          <div key={Math.random()} className="card">
             <div>
               <img src={pharmaeasy} alt="" />
             </div>

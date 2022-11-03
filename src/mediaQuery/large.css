@@ -43,6 +43,7 @@
       backdrop-filter: blur(99px);
       /* color: grey; */
       background-color: rgba(255, 255, 255, 0.171);
+      animation: loader 4s alternate ;
     }
   .card:hover{
     height: 460px;
@@ -50,6 +51,50 @@
     transition: 0.2s ease;
     padding: 15px;
   }
+  /* card rotate key frame */
+
+  @keyframes loader {
+    /* 0% {
+      rotate: 0deg;
+    } */
+    25% {
+      rotate: y 90deg;
+      scale: 0.5;
+    }
+    /* 50% {
+      rotate: 180deg;
+    } */
+    /* 75% {
+      rotate: x 270deg;
+    } */
+
+    /* 100% {
+      rotate: 360deg;
+    } */
+  }
+  
+  /* @supports not (rotate: 0deg) {
+    @keyframes loader {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: scale(0.5) rotateY(90deg);
+      }
+      50% {
+        transfrom: rotate(180deg);
+      }
+      75% {
+        transform: rotateX(270deg);
+        border-radius: 50%;
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  } */
+  
+  /* -----card rotate key frame up */
 
 
     .tech_stack{
@@ -165,10 +210,23 @@
       /* z-index: -1; */
       /* background-color: rgba(126, 123, 123, 0.562); */
      
-  
+  animation: flip 1.25s ease-in-out;
   
      
   
+  }
+
+  @keyframes flip {
+    0% {
+      rotate: y 400deg;
+    }
+    50%{
+     rotate: y 180deg;
+    }
+    100% {
+      /* border-radius: 50%; */
+      rotate: y 360deg;
+    }
   }
   .white_color{
     color:yellow;
