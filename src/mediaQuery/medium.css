@@ -209,26 +209,64 @@ background-size: 50% 100%;
 
 /* ----contact------- */
 .Contacts{
-border: 1px solid red;
+/* border: 1px solid red; */
 display: flex;
 background-image: url("https://images.unsplash.com/photo-1601752943749-7dd8d89f407a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-
+height: auto;
 background-size: 100%;
 font-size: 14px;
 }
 .email_setup{
-/* border: 1px solid blue; */
-width: 30%;
-margin: 10px;
-}
-.phone{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 250px;
+    color: black ;
+    padding: 5px;   
+  }
+  .email_setup input{
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 0 10px 0 10px;
+    border: 1px solid black;
+    padding: 5px;
+    
+  }
+  #send_btn{
+    width: 210px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(44, 62, 94);
+    cursor: pointer;
+    border: 1px solid black;
+    color: aqua;
+  }
+  textarea{
+    width: 210px;
+    height:40px;
+    border: 1px solid black;
+    border-radius: 0 10px 0 10px;
+    padding: 4px;
+    /* margin-left: 20px; */
+  }
+  
+  
+  
+  .contacts_details{
+    width: 55%;
     /* border: 1px solid green; */
-    display: grid;
-    justify-content: center;
-    font-size: 12px;
-    backdrop-filter: blur(90px);
+    height: auto
+  }
+.phone{
+    /* border: 2px solid rgba(30, 30, 31, 0.486); */
+    width: 75%;
+    height: 200px;
     /* padding: 10px; */
+    backdrop-filter: blur(30px);
+    border-radius: 0 30px 0 30px;
+    color:goldenrod;
 }
+
 /* ----------------- */
 .GithubCal{
     width: 100%;

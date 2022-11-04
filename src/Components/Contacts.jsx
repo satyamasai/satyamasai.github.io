@@ -4,7 +4,9 @@ import emailjs from "@emailjs/browser";
 const Contacts = () => {
   const form = useRef();
   const sendEmail = (e) => {
+    
     e.preventDefault();
+    // formObject.reset();
     if (form.current[0].value.length > 0 && form.current[1].value.length > 0) {
       emailjs
         .sendForm(
@@ -17,6 +19,7 @@ const Contacts = () => {
           (result) => {
             console.log(result.text);
             alert("Thankyou !");
+
             console.log("message sent succesfully");
           },
           (error) => {
@@ -27,6 +30,8 @@ const Contacts = () => {
       alert("Please enter correct input!");
     }
   };
+
+
 
 
 

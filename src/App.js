@@ -13,6 +13,7 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import NewNavbar from './Components/NewNavbar';
 import Practice from './Components/Practice';
+import Stats from './Components/GithubStats';
 
 
 
@@ -27,6 +28,7 @@ function App() {
     <Practice/>
     <Projects/>
     <GitHubCal/>
+    <Stats/>
     <Contacts/>
           
          
