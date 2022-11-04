@@ -50,7 +50,7 @@ scroll-behavior: smooth;
   }
   
   .nav-links {
-    color: #fff;
+    color: black;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
@@ -103,11 +103,15 @@ scroll-behavior: smooth;
   
     .nav-menu.active {
       /* background: #1f5156; */
-      background: black;
+      background: rgba(218, 165, 32, 0.979);
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;
-      z-index: 21;
+      
+      color: black;
+      border: 1px solid red;
+    /* overflow-y: hidden ; */
+      
     }
     .nav-item .active {
       color: #ffdd40;
