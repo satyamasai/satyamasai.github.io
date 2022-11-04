@@ -1,4 +1,4 @@
-@media (min-width:481px) and (max-width:780px) {
+@media (min-width:481px) and (max-width:850px) {
     
 .homeDiv{
     height: 500px;
@@ -206,6 +206,30 @@ background-size: 50% 100%;
  
 
 /* -------------------------- */
+
+/* ----contact------- */
+.Contacts{
+border: 1px solid red;
+display: flex;
+background-image: url("https://images.unsplash.com/photo-1601752943749-7dd8d89f407a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+
+background-size: 100%;
+font-size: 14px;
+}
+.email_setup{
+/* border: 1px solid blue; */
+width: 30%;
+margin: 10px;
+}
+.phone{
+    /* border: 1px solid green; */
+    display: grid;
+    justify-content: center;
+    font-size: 12px;
+    backdrop-filter: blur(90px);
+    /* padding: 10px; */
+}
+/* ----------------- */
 .GithubCal{
     width: 100%;
     border: 1px solid green;
