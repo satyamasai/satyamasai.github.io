@@ -11,7 +11,7 @@
 }
 
 .left_home_div{
-    width: 50%;
+    width: 60%;
     height: 90%;
     margin: auto;
     margin-top: 80px;
@@ -88,7 +88,60 @@ background-size: 50% 100%;
     width: 90%;
 }
 
+/* --------skill component ------*/
 
+#skill{
+    /* border: 1px solid red; */
+   background: url("https://images.unsplash.com/photo-1614851099511-773084f6911d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+   background-size: 100% 100%;
+   /* height: 700px; */
+   color: goldenrod;
+   padding-bottom: 20px;
+    
+}
+.SkillsDiv{
+    width: 55%;
+    height: 85%;
+    margin: auto;
+    border-right: 2px solid rgb(16, 16, 66);
+    
+    border-left: 2px solid rgb(212, 18, 18);
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(auto,100px);
+    row-gap: 10px;
+    backdrop-filter: blur(80px);
+   border-radius: 30px 0 30px 0;
+    justify-items: center;
+    padding: 15px;
+    
+     
+}
+.SkillsDiv>div{
+    align-self: center;
+    /* border: 1px solid red; */
+    /* display: flex;
+    justify-content: space-around; */
+    /* width: 50%; */
+    /* height: 80px; */
+   padding: 10px;
+    /* backdrop-filter: blur(80px); */
+
+}
+.Chakra>img{
+    width: 80px;
+    
+  }
+#SkillsDiv div i{
+    /* border: 1px solid blue; */
+    font-size: 80px;
+}
+.SkillsDiv>div>h2{
+    font-size: 16px
+}
+
+
+/* ------------------------------ */
 
 .GithubCal{
     width: 100%;

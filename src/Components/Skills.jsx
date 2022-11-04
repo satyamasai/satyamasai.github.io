@@ -13,7 +13,7 @@ const Skills = () => {
         Skills
       </div>
 
-      <div className="SkillsDiv">
+      <div className="SkillsDiv" id="SkillsDiv">
         <div>
           <i class="devicon-html5-plain-wordmark colored"></i>
 
