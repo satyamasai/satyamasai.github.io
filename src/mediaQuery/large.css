@@ -15,6 +15,7 @@
       background-size: 100%;
       /* padding: 80px; */
       width: 100%;
+      background: transparent;
       
     }
     .project_card{
@@ -306,6 +307,7 @@
     padding: 20px;
     background-image: url("https://images.unsplash.com/photo-1560762484-813fc97650a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
     background-size: 100%;
+    background: transparent;
     
   }
   
@@ -417,6 +419,7 @@
     background-image: url("https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
     background-size: 100%;
     color: goldenrod;
+    background: transparent;
   }
   
   .contacts_details{
@@ -468,6 +471,7 @@
      background-image: url("https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
      background-size: 100%;
      position: relative;
+     background: transparent;
     
 }
 .innerPrac{
