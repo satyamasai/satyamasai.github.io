@@ -58,7 +58,7 @@
   
   
   #skill{
-     background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); 
+     /* background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");  */
     background-size: 100% 100%;
     padding-top: 50px;
     color: yellow;
@@ -135,9 +135,9 @@
     
     /* width: 100%; */
     justify-content: center;
-    background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
+    /* background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137)); */
     padding-top: 120px;
-    background-image: url("https://images.unsplash.com/photo-1665855016165-2012bb8de0cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1665855016165-2012bb8de0cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"); */
     font-size: 16px;
     /* color: red; */
     font-weight: bolder;
@@ -191,7 +191,7 @@
     width: 100%;
     /* border: 1px solid blue; */
     font-size: 7px;
-    background-image: url("https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
     /* color: brown; */
     font-weight: bolder;
      text-decoration:overline;
@@ -315,7 +315,7 @@ width: 95%;
     width: 100%;
     height: 750px;
     /* border: 1px solid red; */
-    background-image: url("https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
     background-size: 100% 100%;
     position: relative;
    
