@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 import "./newNavbar.css";
-import "../mediaQuery/small.css"
+import "../mediaQuery/small.css";
 
-const  NewNavbar = ()=> {
+const NewNavbar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -29,7 +29,6 @@ const  NewNavbar = ()=> {
             </li>
             <li className="nav-item">
               <a
-            
                 href="#about"
                 activeClassName="active"
                 className="nav-links"
@@ -40,7 +39,7 @@ const  NewNavbar = ()=> {
             </li>
             <li className="nav-item">
               <a
-               href="#skill"
+                href="#skill"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -49,18 +48,18 @@ const  NewNavbar = ()=> {
               </a>
             </li>
             <li className="nav-item">
-            <a
-             href="#projectDiv"
-              activeClassName="active"
-              className="nav-links"
-              onClick={handleClick}
-            >
-              Projects
-            </a>
-          </li>
+              <a
+                href="#projectDiv"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Projects
+              </a>
+            </li>
             <li className="nav-item">
               <a
-               href="#contacts"
+                href="#contacts"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -70,16 +69,16 @@ const  NewNavbar = ()=> {
             </li>
 
             <li className="nav-item">
-            <a
-            href="Satyam_Gupta_Resume_2022.pdf" 
-             download
-              activeClassName="active"
-              className="nav-links"
-              onClick={handleClick}
-            >
-              Resume
-            </a>
-          </li>
+              <a
+                href="Satyam_Gupta_Resume_2022.pdf"
+                download
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Resume
+              </a>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
@@ -88,6 +87,6 @@ const  NewNavbar = ()=> {
       </nav>
     </>
   );
-}
+};
 
 export default NewNavbar;

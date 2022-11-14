@@ -124,13 +124,15 @@ scroll-behavior: smooth;
     }
   
     .nav-icon {
+      /* border: 1px solid red; */
       display: block;
       position: absolute;
       top: 0;
       right: 0;
+      margin-top: -16px;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      color: #ffdd40;
+      color: goldenrod;
     }
   }
