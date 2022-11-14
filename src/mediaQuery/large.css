@@ -2,40 +2,48 @@
   
 
     .projectDiv{
+      width: 100%;
       /* border: 1px solid blue; */
-      height: 650px;
+      /* height: 650px; */
+     
+      /* overflow: hidden; */
       background-color:rgb(119, 117, 117);
       background: linear-gradient(rgb(79,79,80),rgb(139, 137, 137));
       /* display: flex; */
-      justify-content: space-evenly;
+      /* justify-content: space-evenly; */
       color:black;
       /* font-size: 20px; */
       font-weight: bolder;
       background-image: url("https://images.unsplash.com/photo-1607706009771-de8808640bcf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
       background-size: 100%;
       /* padding: 80px; */
-      width: 100%;
+      /* width: 100%; */
       background: transparent;
+      height: auto;
       
     }
     .project_card{
-      border-bottom: 2px solid black;
-      width: 90%;
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(2 ,45%);
+      grid-template-rows: repeat(2,auto);
+      /* border: 2px solid black; */
+      width: 80%;
+      /* display: flex; */
       margin: auto;
       /* width: 80%; */
       padding: 10px;
       
       justify-content: space-around;
-      gap: 15px;
+      gap: 25px;
       margin-top: 80px;
+      height: auto;
     }
   
     .card{
       /* border: 1px solid red; */
-      width: 350px;
-      height: 450px;
-      /* margin-top: 100px; */
+      /* width: 300px; */
+      /* height: 450px; */
+     
       /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaNZdCuj2Nz_ExvFiU15824FdCepMm6hhDww&usqp=CAU"); */
       border-radius: 10px;
       background-size: 100%;
@@ -45,12 +53,19 @@
       /* color: grey; */
       background-color: rgba(255, 255, 255, 0.171);
       animation: loader 4s alternate ;
+      padding: 10px;
+
     }
   .card:hover{
-    height: 460px;
-    width: 355px;
-    transition: 0.2s ease;
-    padding: 15px;
+    /* height: 101%; */
+    width: 101%;
+    transition: 1s ease;
+
+    padding: 10px;
+    
+    background-color: rgb(41, 41, 41);
+    /* gap: 10px; */
+    color: goldenrod;
   }
   /* card rotate key frame */
 
@@ -99,7 +114,7 @@
 
 
     .tech_stack{
-      width: 250px;
+      width: 60%;
       margin: auto;
       height: 50px;
       /* border: 1px solid black; */
