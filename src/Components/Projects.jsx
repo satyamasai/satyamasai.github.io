@@ -1,6 +1,7 @@
 import pharmaeasy from "../Photo/pharmaeasy-snap.jpg";
 import ytclone from "../Photo/ytclone.jpg";
 import urbancp from "../Photo/urbancp.jpg";
+import naukris from "../Photo/naukris.jpg";
 
 const Projects = () => {
   return (
@@ -8,7 +9,7 @@ const Projects = () => {
       <div className="projectDiv" id="projectDiv">
         <h1
           style={{
-            color: "yellow",
+            color: "goldenrod",
 
             textDecoration: "underline",
 
@@ -18,6 +19,67 @@ const Projects = () => {
         </h1>
 
         <div className="project_card">
+  {/*   0th  card       */}
+        <div className="card">
+        <div>
+          <img src={naukris} alt="" />
+        </div>
+        <button className="demobtn">
+          {" "}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://naukri12345.netlify.app/"
+          >
+            VIEW
+          </a>
+        </button>
+
+        <button className="demobtn">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://github.com/Sharmacs8853/overjoyed-field-1627"
+          >
+            Source code
+          </a>
+        </button>
+        <br />
+        <br />
+        <p>* Naukri.com clone *</p>
+        <div className="tech_stack">
+          <div>
+            
+          <i class="devicon-react-original-wordmark colored"></i>
+          
+          </div>
+          <div>
+          
+          <i class="devicon-nodejs-plain-wordmark colored"></i>
+          
+          </div>
+
+          <div>
+          <i class="devicon-javascript-plain colored"></i>
+        </div>
+          <div>
+          <i class="devicon-express-original-wordmark"></i>
+          
+          </div>
+          
+          <div>
+           
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
+          
+          </div>
+        </div>
+        <br />
+        <p>
+        Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies, and job seekers in India and overseas.{" "}
+        </p>
+      </div>
+
+        {/*   1st card       */}
           <div key={Math.random()} className="card">
             <div>
               <img src={pharmaeasy} alt="" />
@@ -134,6 +196,11 @@ const Projects = () => {
             <br />
             <p>* Urban company clone *</p>
             <div className="tech_stack">
+            <div>
+            
+            <i class="devicon-react-original-wordmark colored"></i>
+            
+            </div>
               <div>
                 <i class="devicon-html5-plain-wordmark colored"></i>
               </div>

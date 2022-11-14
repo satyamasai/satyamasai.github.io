@@ -22,7 +22,7 @@ const Practice = () => {
           <div>
           
           <h3>
-          80+ Mini projects...
+          50+ Mini projects...
           </h3>
           </div>
        </div>

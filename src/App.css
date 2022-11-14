@@ -30,7 +30,7 @@
 .App {
   text-align: center;
   /* border: 1px solid red; */
-  background-image: url("https://images.unsplash.com/photo-1644345239317-f0cd165d60fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-image: url("https://images.unsplash.com/photo-1665178148753-07b82e30810e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80");
   
   background-size: 100% ;
   background: linear-gradient(56deg, rgba(53,12,91,1) 35%, rgba(179,128,9,1) 100%);
