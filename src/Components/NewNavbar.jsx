@@ -70,7 +70,7 @@ const NewNavbar = () => {
 
             <li className="nav-item">
               <a
-                href="Satyam_Gupta_Resume_2022.pdf"
+                href="Satyam_Gupta_Resume.pdf"
                 download
                 activeClassName="active"
                 className="nav-links"
