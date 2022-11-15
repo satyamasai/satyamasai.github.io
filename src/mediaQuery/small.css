@@ -198,6 +198,7 @@
      text-decoration:overline;
      /* padding: 10px; */
      background-size: 100% 100%;
+     color: goldenrod;
   }
   .email_setup{
     /* border: 1px solid red; */
@@ -215,18 +216,29 @@
     padding: 5px;
   }
   #send_btn{
-    width: 50px;
-    background-color: rgb(241, 241, 127);
+    width: 160px;
+    background-color:goldenrod;
     cursor: pointer;
     border: 1px solid black;
+    margin-left: 24px;
+    margin-top: 10px;
+    border-radius: 10px;
   }
   textarea{
-    width: 130px;
+    width: 152px;
     height:50px;
     border: 1px solid black;
     border-radius: 10px;
     padding: 4px;
-    /* margin-left: 20px; */
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+  .labelmsg{
+    border: 1px solid red;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin: auto;
+    padding: 1px;
   }
 
 

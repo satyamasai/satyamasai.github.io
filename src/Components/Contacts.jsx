@@ -56,7 +56,7 @@ const Contacts = () => {
             name="user_email"
           />
           <br />
-          <label>Message</label>
+         { /*<label className="labelmsg">Message</label>*/}
 
           <textarea name="message" defaultValue={"hello.."} />
           <br />
