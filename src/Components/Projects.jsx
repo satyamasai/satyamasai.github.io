@@ -141,7 +141,7 @@ const Projects = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://dapper-sawine-04c05a.netlify.app/"
+                href="https://github.com/satyamasai/Youtube_clone"
               >
                 Source code
               </a>
