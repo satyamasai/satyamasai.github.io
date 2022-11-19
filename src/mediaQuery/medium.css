@@ -292,4 +292,32 @@ font-size: 14px;
     color: goldenrod;
     padding: 10px;
 }
+
+/* --about div ------- */
+.aboutDiv{
+  /* border: 1px solid blue; */
+}
+.about_flex{
+  /* height: 90%; */
+  /* border: 1px solid green; */
+}
+.about_description{
+  /* border: 1px solid black; */
+  width: 58%;
+}
+.about_div_img{
+  /* height: 100% !important; */
+  width: 39%;
+  margin: auto;
+  height: 350px;
+  /* border: 1px solid red; */
+  
+}
+.about_div_img>img{
+  padding: 0%;
+}
+
+
+
+
 }

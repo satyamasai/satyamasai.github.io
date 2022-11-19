@@ -79,7 +79,7 @@
   /* border-top: 2px solid yellow; */
   /* border-radius: 80%; */
   width: 30%;
-  height: 420px;
+  height: 400px;
 
   /* margin: 10px; */
 }
@@ -87,9 +87,11 @@
 .about_div_img > img {
   /* border-radius: 50%; */
   width: 99%;
-  height: 90%;
+  height: 95%;
   border-bottom-left-radius: 12%;
   border-bottom-right-radius: 12%;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 .about_flex {
   display: flex;

@@ -1,5 +1,5 @@
 import satyampq from "../Photo/satyampq.png";
-
+import satyamp from "../Photo/satyamp.png" 
 const About = () => {
   return (
     <div className="aboutDiv" id="about">
