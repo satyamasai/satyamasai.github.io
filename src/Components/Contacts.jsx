@@ -58,9 +58,9 @@ const Contacts = () => {
           <br />
          { /*<label className="labelmsg">Message</label>*/}
 
-          <textarea name="message" defaultValue={"hello.."} />
+          <textarea name="message" defaultValue={"hello..."} />
           <br />
-          <input id="send_btn" type="submit" value="Send" />
+          <input id="send_btn" type="submit" value="Send Message" />
         </form>
       </div>
       <div className="contacts_details">

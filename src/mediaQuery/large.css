@@ -71,23 +71,7 @@
 
 
 
- .card {
-    --s: 450px;   /* the size of the image */
-    --b: 8px;     /* the border thickness*/
-    --g: 5px;    /* the gap */
-    --c: goldenrod; /* the color */
-    
-    width: var(--s);
-    aspect-ratio: 2;
-    outline: calc(var(--s)/3) solid #0009;
-    outline-offset: calc(var(--s)/-2);
-    cursor: pointer;
-    transition: 0.5s;
-  }
-  .card:hover {
-    outline: var(--b) solid var(--c);
-    outline-offset: var(--g);
-  }
+
   
   /* card rotate key frame */
 
@@ -422,25 +406,30 @@
     height: 25px;
     margin: 5px;
     border-radius: 0 10px 0 10px;
-    border: 1px solid black;
+    border: 2px solid goldenrod;
     padding: 5px;
+    background-color: rgba(218, 165, 32, 0.096);
     
   }
   #send_btn{
-    width: 300px;
+    width: 310px;
     height: 35px;
     padding: 5px;
     background-color: rgb(44, 62, 94);
     cursor: pointer;
-    border: 1px solid black;
-    color: aqua;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    /* border: none; */
+    margin-top: 10px;
   }
   textarea{
     width: 300px;
     height:100px;
-    border: 1px solid black;
+    border: 2px solid goldenrod;
     border-radius: 0 10px 0 10px;
     padding: 4px;
+    margin-top: 20px;
+    background-color: rgba(218, 165, 32, 0.192);
     /* margin-left: 20px; */
   }
   
@@ -465,7 +454,7 @@
     height: auto
   }
 .phone{
-    border: 2px solid rgba(30, 30, 31, 0.486);
+    border: 2px solid goldenrod;
     width: 420px;
     height: 260px;
     padding: 10px;
