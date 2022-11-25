@@ -34,7 +34,7 @@ const NewNavbar = () => {
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+                About Me
               </a>
             </li>
             <li className="nav-item">
