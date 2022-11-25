@@ -3,7 +3,7 @@ import satyamp from "../Photo/satyamp.png"
 const About = () => {
   return (
     <div className="aboutDiv" id="about">
-      <div className="about_text">About</div>
+      <div className="about_text">About Me</div>
       <div className="about_flex">
         <div className="about_div_img">
           <img src={satyampq} alt="" />
