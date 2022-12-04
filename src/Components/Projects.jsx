@@ -131,7 +131,7 @@ const Projects = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://dapper-sawine-04c05a.netlify.app/"
+                href="https://curious-hummingbird-01446b.netlify.app/"
               >
                 VIEW
               </a>
