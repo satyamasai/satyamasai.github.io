@@ -29,7 +29,7 @@ const Home = () => {
   };
 
   const [prof, setProf] = useState("" || "Full Stack Web Developer");
-  const profession = ["Full Stack Web Developer", "Web Designer"];
+  const profession = ["Full Stack Web Developer", "MERN Stack Developer"];
   // let i = 0;
 
   useEffect(
@@ -41,7 +41,7 @@ const Home = () => {
           i = 0;
         }
         setProf(profession[i]);
-      }, 1000);
+      }, 2000);
     },
     [0]
   );
