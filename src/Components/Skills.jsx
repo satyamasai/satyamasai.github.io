@@ -8,6 +8,7 @@ const Skills = () => {
           fontSize: "25px",
           fontWeight: "Bolder",
           textDecoration: "underline",
+          color:"goldenrod"
         }}
       >
         Skills
