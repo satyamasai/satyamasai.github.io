@@ -107,7 +107,8 @@ scroll-behavior: smooth;
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;
-      
+      height: 1000px;
+      /* width */
       color: black;
       
       
