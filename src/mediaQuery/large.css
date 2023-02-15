@@ -54,19 +54,22 @@
       background-color: rgba(255, 255, 255, 0.171);
       animation: loader 4s alternate ;
       padding: 10px;
-
+      transition: 0.2s;
+      
     }
-  .card:hover{
-    /* height: 101%; */
-    width: 101%;
-    /* transition: 1s ease; */
-
-    padding: 10px;
+    .card:hover{
+      /* height: 101%; */
+      transition: 0.5s ease;
+      width: 101%;
+      
+      /* padding: 10px; */
+      
+      
+      background-color: rgb(41, 41, 41);
+      /* gap: 10px; */
+      color: goldenrod;
+      /* transition-delay:1s; */
     
-    
-    background-color: rgb(41, 41, 41);
-    /* gap: 10px; */
-    color: goldenrod;
   }
 
 
