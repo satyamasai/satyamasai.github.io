@@ -1,6 +1,26 @@
 @media screen and (min-width:851px) and (max-width:2100px) {
   
+.ocassion{
+  /* border: 1px solid red; */
+  
+  /* margin-top: 50px; */
+  box-sizing: border-box;
+  font-size: 20px;
+ /* color: red;  */
+ /* color: yellow;  */
+ /* animation-name: slide; */
+  position: static;
+ animation-name: slide;
+ animation-duration: 3s;
+ animation-timing-function: ease-in-out;
+ animation-delay: .4s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
 
+  /* animation: blinker time_in_seconds up_to_blink_time; */
+}
+
+  
     .projectDiv{
       width: 100%;
       /* border: 1px solid blue; */
@@ -223,7 +243,7 @@
     width: 70%;
     height: 350px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 120px;
    
     
       padding: 15px;
