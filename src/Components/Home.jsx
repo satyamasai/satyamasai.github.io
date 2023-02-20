@@ -49,8 +49,9 @@ const Home = () => {
   return (
     <div className="homeDiv" id="home">
     <div className="left_home_div">
-    <div className="ocassion">ॐ Happy Maha Shivratri ॐ</div>
-        <h2 className="hey">
+{/*    <div className="ocassion">ॐ Happy Maha Shivratri ॐ</div>
+  */} 
+       <h2 className="hey">
           Hey! i<span>'</span>m
         </h2>
         <h1>
