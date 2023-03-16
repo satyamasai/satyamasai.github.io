@@ -344,3 +344,18 @@ margin-top: 5px;
   background: #ac9518; 
 }
 
+
+
+/* --------audio box------ */
+
+.audio_box{
+  background-color: aqua;
+  color:#ac9518;
+}
+audio{
+  /* width: 100%; */
+color: #ac9518;
+  /* background-color: #61dafb; */
+  /* background: #61dafb; */
+}
+

@@ -1,10 +1,14 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import "../mediaQuery/medium.css"
+import "../mediaQuery/medium.css";
+
+import audioFile from "../Photo/audio.mp3";
 
 // import satyampp from "../Photo/satyampp.png";
 
 const Home = () => {
+  const [isPlaying, setIsPlaying] = useState(true);
+
   const linkedinLink = () => {
     window.open("https://www.linkedin.com/in/satyamgupta1516/", "_blank");
   };
@@ -48,10 +52,23 @@ const Home = () => {
 
   return (
     <div className="homeDiv" id="home">
-    <div className="left_home_div">
-{/*    <div className="ocassion">ॐ Happy Maha Shivratri ॐ</div>
-  */} 
-       <h2 className="hey">
+      <div className="left_home_div">
+      <div className="audio-player">
+      <audio
+        src={audioFile}
+        onPlay={() => setIsPlaying(true)}
+        onPause={() => setIsPlaying(false)}
+        controls
+
+       
+      />
+    
+    </div>
+
+        {/*    <div className="ocassion">ॐ Happy Maha Shivratri ॐ</div>
+         */}
+
+        <h2 className="hey">
           Hey! i<span>'</span>m
         </h2>
         <h1>
