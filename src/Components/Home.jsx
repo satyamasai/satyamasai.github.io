@@ -54,14 +54,7 @@ const Home = () => {
     <div className="homeDiv" id="home">
       <div className="left_home_div">
       <div className="audio-player">
-      <audio
-        src={audioFile}
-        onPlay={() => setIsPlaying(true)}
-        onPause={() => setIsPlaying(false)}
-        controls
-
-       
-      />
+   
     
     </div>
 
