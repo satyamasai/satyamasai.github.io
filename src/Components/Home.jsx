@@ -2,12 +2,12 @@ import { useEffect } from "react";
 import { useState } from "react";
 import "../mediaQuery/medium.css";
 
-import audioFile from "../Photo/audio.mp3";
+// import audioFile from "../Photo/audio.mp3";
 
 // import satyampp from "../Photo/satyampp.png";
 
 const Home = () => {
-  const [isPlaying, setIsPlaying] = useState(true);
+  // const [isPlaying, setIsPlaying] = useState(true);
 
   const linkedinLink = () => {
     window.open("https://www.linkedin.com/in/satyamgupta1516/", "_blank");
