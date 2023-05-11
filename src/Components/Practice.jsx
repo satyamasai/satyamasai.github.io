@@ -6,12 +6,12 @@ const Practice = () => {
        <div className="innerPrac">
           <div>
            <h3>
-          1200+ Hours coding...
+          1200+ Hours coding
           </h3>
           </div>
           <div>
           <h3>
-          300+ Hours DSA...
+          300+ Hours DSA
           </h3>
           </div>
           <div>
@@ -22,7 +22,7 @@ const Practice = () => {
           <div>
           
           <h3>
-          50+ Mini projects...
+          50+ Mini projects
           </h3>
           </div>
        </div>

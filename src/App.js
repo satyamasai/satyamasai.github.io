@@ -34,7 +34,7 @@ function App() {
          
 
            <div className='footer'>
-            <p> Made with <i class="fa-solid fa-heart"></i> by Satyam Gupta, 2022 </p>
+            <p> Made with <i class="fa-solid fa-heart"></i> by Satyam Gupta © 2023 </p>
            </div>
            
     </div>
