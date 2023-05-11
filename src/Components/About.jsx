@@ -1,4 +1,5 @@
 import satyampq from "../Photo/satyampq.png";
+// import satyampqr from "../Photo/satyampqr.png";
 // import satyamp from "../Photo/satyamp.png" 
 const About = () => {
   return (

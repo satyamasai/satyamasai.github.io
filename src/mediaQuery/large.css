@@ -118,26 +118,7 @@
     } */
   }
   
-  /* @supports not (rotate: 0deg) {
-    @keyframes loader {
-      0% {
-        transform: rotate(0deg);
-      }
-      25% {
-        transform: scale(0.5) rotateY(90deg);
-      }
-      50% {
-        transfrom: rotate(180deg);
-      }
-      75% {
-        transform: rotateX(270deg);
-        border-radius: 50%;
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-  } */
+
   
   /* -----card rotate key frame up */
 
