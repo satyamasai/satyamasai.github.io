@@ -14,6 +14,30 @@ let projectData=[
     viewlink:"https://naukri12345.netlify.app/",
     sourceodelink:"https://github.com/Sharmacs8853/overjoyed-field-1627",
     projectDisc:"  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  "
+  },{
+    name:" Pharmeasy clone ",
+    heroimg:pharmaeasy,
+    viewlink:"https://cozy-naiad-3ca38b.netlify.app/index.html",
+    sourceodelink:"https://github.com/satyamasai/PharmEasy-clone-by-Satyam",
+    projectDisc:"This is e-commerce website with the functionality of coupan code, add to cart and signup/login."
+  },{
+    name:" Youtube clone  ",
+    heroimg:naukris,
+    viewlink:"https://curious-hummingbird-01446b.netlify.app/",
+    sourceodelink:"https://github.com/Sharmacs8853/overjoyed-field-1627",
+    projectDisc:"  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  "
+  },{
+    name:" Naukri.com clone ",
+    heroimg:naukris,
+    viewlink:"https://naukri12345.netlify.app/",
+    sourceodelink:"https://github.com/Sharmacs8853/overjoyed-field-1627",
+    projectDisc:"  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  "
+  },{
+    name:" Naukri.com clone ",
+    heroimg:naukris,
+    viewlink:"https://naukri12345.netlify.app/",
+    sourceodelink:"https://github.com/Sharmacs8853/overjoyed-field-1627",
+    projectDisc:"  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  "
   }
 ]
 

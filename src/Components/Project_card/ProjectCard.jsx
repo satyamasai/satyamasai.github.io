@@ -1,19 +1,20 @@
 import React from 'react'
 import "./ProjectCard.css"
 // import {heybellohero} from 
-const ProjectCard = () => {
+const ProjectCard = ({data}) => {
+    let {name,heroimg,viewlink,sourceodelink,projectDisc}= data;
   return (
     <div className='project_card'>
     <div className="card">
             <div>
-              <img src="" alt="asdf" />
+              <img src={heroimg} alt="heroimg" />
             </div>
             <button className="demobtn">
               {" "}
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://monumental-mandazi-8960e5.netlify.app/"
+                href={viewlink}
               >
                 VIEW
               </a>
@@ -23,14 +24,14 @@ const ProjectCard = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://github.com/satyamasai/heybello"
+                href={sourceodelink}
               >
                 Source code
               </a>
             </button>
             <br />
             <br />
-            <p>* Hey Bello E-com. *</p>
+            <p>*{name}*</p>
             <div className="tech_stack">
               <div>
                 <i class="devicon-react-original-wordmark colored"></i>
@@ -47,8 +48,7 @@ const ProjectCard = () => {
             </div>
             <br />
             <p>
-              This is E-commerce application with React, Node.js, MongoDB and
-              razorpay API integration with fetching functionality{" "}
+             {projectDisc}
             </p>
           </div>
     
