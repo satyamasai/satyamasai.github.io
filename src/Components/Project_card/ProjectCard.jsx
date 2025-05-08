@@ -1,7 +1,7 @@
 import React from 'react'
 import "./ProjectCard.css"
 
-// import {heybellohero} from 
+
 const ProjectCard = ({data}) => {
     let {name,heroimg,viewlink,sourceodelink,projectDisc}= data;
   return (

@@ -47,16 +47,13 @@ const Home = () => {
         setProf(profession[i]);
       }, 2000);
     },
-    [0]
+    []
   );
 
   return (
     <div className="homeDiv" id="home">
       <div className="left_home_div">
-      <div className="audio-player">
-   
-    
-    </div>
+        <div className="audio-player"></div>
 
         {/*    <div className="ocassion">ॐ Happy Maha Shivratri ॐ</div>
          */}

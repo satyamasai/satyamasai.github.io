@@ -24,27 +24,27 @@ let projectData = [
   },
   {
     name: " Youtube clone  ",
-    heroimg: naukris,
+    heroimg: ytclone,
     viewlink: "https://curious-hummingbird-01446b.netlify.app/",
-    sourceodelink: "https://github.com/Sharmacs8853/overjoyed-field-1627",
+    sourceodelink: "https://github.com/satyamasai/Youtube_clone",
     projectDisc:
-      "  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  ",
+      " I have made this project as a clone with html, javascripts, CSS and Youtube API with fetching functionality  ",
   },
   {
-    name: " Naukri.com clone ",
-    heroimg: naukris,
-    viewlink: "https://naukri12345.netlify.app/",
-    sourceodelink: "https://github.com/Sharmacs8853/overjoyed-field-1627",
+    name: " * Urban company clone * ",
+    heroimg: urbancp,
+    viewlink: "https://urban-company-ruddy.vercel.app/",
+    sourceodelink: "https://github.com/sonuprasad66/tense-visitor-349",
     projectDisc:
-      "  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  ",
-  },
+      "  Urban Company is Asia's largest online home services platform.The platform helps customers book reliable & high quality services beauty treatments, massages, haircuts, home cleaning and many more.  "
+    },
   {
-    name: " Naukri.com clone ",
-    heroimg: naukris,
-    viewlink: "https://naukri12345.netlify.app/",
-    sourceodelink: "https://github.com/Sharmacs8853/overjoyed-field-1627",
+    name: "  Hey Bello E-com. ",
+    heroimg: heybellohero,
+    viewlink: "https://monumental-mandazi-8960e5.netlify.app/",
+    sourceodelink: "https://github.com/satyamasai/heybello",
     projectDisc:
-      "  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  ",
+      " This is E-commerce application with React, Node.js, MongoDB and razorpay API integration with fetching functionality ",
   },
 ];
 
