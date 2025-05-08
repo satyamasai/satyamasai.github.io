@@ -2,13 +2,14 @@ import satyampq from "../Photo/satyampq.png";
 // import satyampqr from "../Photo/satyampqr.png";
 // import satyamp from "../Photo/satyamp.png" 
 import satyampqrs from "../Photo/satyampqrs.png" 
+import satyamnew from "../Photo/satyamnew.jpg"
 const About = () => {
   return (
     <div className="aboutDiv" id="about">
       <div className="about_text">About Me</div>
       <div className="about_flex">
         <div className="about_div_img">
-          <img src={satyampq} alt="satyam pq" />
+          <img src={satyamnew} alt="satyam pq" />
         </div>
 
         <div className="about_description">
