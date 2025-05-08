@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b0c2db7.css",
-    "main.js": "/static/js/main.cb33baf0.js",
+    "main.css": "/static/css/main.fe8b0236.css",
+    "main.js": "/static/js/main.a9fc74f7.js",
     "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
     "static/media/naukris.jpg": "/static/media/naukris.a2073452437d8a10b86f.jpg",
-    "static/media/satyampq.png": "/static/media/satyampq.1ae674c2d84fdce8dfdc.png",
     "static/media/ytclone.jpg": "/static/media/ytclone.032be234b64a470d08d2.jpg",
-    "static/media/satyampqrs.png": "/static/media/satyampqrs.5a2f4e050f25ec1e51a7.png",
     "static/media/satyamnew.jpg": "/static/media/satyamnew.9609adf636cbe18d5c29.jpg",
     "static/media/pharmaeasy-snap.jpg": "/static/media/pharmaeasy-snap.e3c69c642e931db869b8.jpg",
     "static/media/heybellohero.jpg": "/static/media/heybellohero.cf049d09f19eb0e848a2.jpg",
     "static/media/urbancp.jpg": "/static/media/urbancp.879ac162f6ae97538d5f.jpg",
     "index.html": "/index.html",
-    "main.1b0c2db7.css.map": "/static/css/main.1b0c2db7.css.map",
-    "main.cb33baf0.js.map": "/static/js/main.cb33baf0.js.map",
+    "main.fe8b0236.css.map": "/static/css/main.fe8b0236.css.map",
+    "main.a9fc74f7.js.map": "/static/js/main.a9fc74f7.js.map",
     "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b0c2db7.css",
-    "static/js/main.cb33baf0.js"
+    "static/css/main.fe8b0236.css",
+    "static/js/main.a9fc74f7.js"
   ]
 }
