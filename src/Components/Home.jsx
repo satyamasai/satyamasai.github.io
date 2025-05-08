@@ -36,19 +36,16 @@ const Home = () => {
   const profession = ["Full Stack Web Developer", "MERN Stack Developer"];
   // let i = 0;
 
-  useEffect(
-    (i) => {
-      setInterval(() => {
-        if (i === 0) {
-          i = 1;
-        } else {
-          i = 0;
-        }
-        setProf(profession[i]);
-      }, 2000);
-    },
-    []
-  );
+  useEffect((i) => {
+    setInterval(() => {
+      if (i === 0) {
+        i = 1;
+      } else {
+        i = 0;
+      }
+      setProf(profession[i]);
+    }, 2000);
+  }, []);
 
   return (
     <div className="homeDiv" id="home">

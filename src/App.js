@@ -4,6 +4,7 @@ import ".//mediaQuery/small.css";
 import ".//mediaQuery/large.css";
 import ".//mediaQuery/medium.css";  
 
+
 import About from './Components/About';
 import Contacts from './Components/Contacts';
 import GitHubCal from './Components/GitHubCal';

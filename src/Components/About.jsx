@@ -1,7 +1,7 @@
-import satyampq from "../Photo/satyampq.png";
-// import satyampqr from "../Photo/satyampqr.png";
-// import satyamp from "../Photo/satyamp.png" 
-import satyampqrs from "../Photo/satyampqrs.png" 
+// import satyampq from "../Photo/satyampq.png";
+// // import satyampqr from "../Photo/satyampqr.png";
+// // import satyamp from "../Photo/satyamp.png" 
+// import satyampqrs from "../Photo/satyampqrs.png" 
 import satyamnew from "../Photo/satyamnew.jpg"
 const About = () => {
   return (
