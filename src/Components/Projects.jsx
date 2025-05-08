@@ -5,41 +5,48 @@ import naukris from "../Photo/naukris.jpg";
 import heybellohero from "../Photo/heybellohero.jpg";
 import ProjectCard from "./Project_card/ProjectCard";
 
-
-let projectData=[
-
+let projectData = [
   {
-    name:" Naukri.com clone ",
-    heroimg:naukris,
-    viewlink:"https://naukri12345.netlify.app/",
-    sourceodelink:"https://github.com/Sharmacs8853/overjoyed-field-1627",
-    projectDisc:"  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  "
-  },{
-    name:" Pharmeasy clone ",
-    heroimg:pharmaeasy,
-    viewlink:"https://cozy-naiad-3ca38b.netlify.app/index.html",
-    sourceodelink:"https://github.com/satyamasai/PharmEasy-clone-by-Satyam",
-    projectDisc:"This is e-commerce website with the functionality of coupan code, add to cart and signup/login."
-  },{
-    name:" Youtube clone  ",
-    heroimg:naukris,
-    viewlink:"https://curious-hummingbird-01446b.netlify.app/",
-    sourceodelink:"https://github.com/Sharmacs8853/overjoyed-field-1627",
-    projectDisc:"  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  "
-  },{
-    name:" Naukri.com clone ",
-    heroimg:naukris,
-    viewlink:"https://naukri12345.netlify.app/",
-    sourceodelink:"https://github.com/Sharmacs8853/overjoyed-field-1627",
-    projectDisc:"  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  "
-  },{
-    name:" Naukri.com clone ",
-    heroimg:naukris,
-    viewlink:"https://naukri12345.netlify.app/",
-    sourceodelink:"https://github.com/Sharmacs8853/overjoyed-field-1627",
-    projectDisc:"  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  "
-  }
-]
+    name: " Naukri.com clone ",
+    heroimg: naukris,
+    viewlink: "https://naukri12345.netlify.app/",
+    sourceodelink: "https://github.com/Sharmacs8853/overjoyed-field-1627",
+    projectDisc:
+      "  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  ",
+  },
+  {
+    name: " Pharmeasy clone ",
+    heroimg: pharmaeasy,
+    viewlink: "https://cozy-naiad-3ca38b.netlify.app/index.html",
+    sourceodelink: "https://github.com/satyamasai/PharmEasy-clone-by-Satyam",
+    projectDisc:
+      "This is e-commerce website with the functionality of coupan code, add to cart and signup/login.",
+  },
+  {
+    name: " Youtube clone  ",
+    heroimg: naukris,
+    viewlink: "https://curious-hummingbird-01446b.netlify.app/",
+    sourceodelink: "https://github.com/Sharmacs8853/overjoyed-field-1627",
+    projectDisc:
+      "  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  ",
+  },
+  {
+    name: " Naukri.com clone ",
+    heroimg: naukris,
+    viewlink: "https://naukri12345.netlify.app/",
+    sourceodelink: "https://github.com/Sharmacs8853/overjoyed-field-1627",
+    projectDisc:
+      "  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  ",
+  },
+  {
+    name: " Naukri.com clone ",
+    heroimg: naukris,
+    viewlink: "https://naukri12345.netlify.app/",
+    sourceodelink: "https://github.com/Sharmacs8853/overjoyed-field-1627",
+    projectDisc:
+      "  Naukri.com is a recruitment platform that provides hiring-related,services to corporates/recruiters, placement agencies, and jobseekers in India and overseas.  ",
+  },
+];
 
 const Projects = () => {
   return (
@@ -56,15 +63,12 @@ const Projects = () => {
         </h1>
 
         <div className="project_card">
-{
-  projectData?.map((data)=>(
-    <ProjectCard data={data}/>
-  ))
-}
-  
+          {projectData?.map((data) => (
+            <ProjectCard data={data} />
+          ))}
 
           {/*   0th  card       */}
-          <div className="card">
+          {/* <div className="card">
             <div>
               <img src={naukris} alt="" />
             </div>
@@ -116,10 +120,10 @@ const Projects = () => {
               services to corporates/recruiters, placement agencies, and job
               seekers in India and overseas.{" "}
             </p>
-          </div>
+          </div> */}
 
           {/*   1st card       */}
-          <div key={Math.random()} className="card">
+          {/* <div key={Math.random()} className="card">
             <div>
               <img src={pharmaeasy} alt="" />
             </div>
@@ -160,9 +164,9 @@ const Projects = () => {
               This is e-commerce website with the functionality of coupan code,
               add to cart and signup/login.
             </p>
-          </div>
+          </div> */}
           {/*  2nd project card */}
-          <div className="card">
+          {/* <div className="card">
             <div>
               <img src={ytclone} alt="" />
             </div>
@@ -205,10 +209,10 @@ const Projects = () => {
               I have made this project as a clone with html, javascripts, CSS
               and Youtube API with fetching functionality{" "}
             </p>
-          </div>
+          </div> */}
 
           {/*  3rd project card */}
-          <div className="card">
+          {/* <div className="card">
             <div>
               <img src={urbancp} alt="" />
             </div>
@@ -256,10 +260,10 @@ const Projects = () => {
               beauty treatments, massages, haircuts, home cleaning and many
               more..{" "}
             </p>
-          </div>
+          </div> */}
 
           {/*  4th project card */}
-          <div className="card">
+          {/* <div className="card">
             <div>
               <img src={heybellohero} alt="" />
             </div>
@@ -305,7 +309,7 @@ const Projects = () => {
               This is E-commerce application with React, Node.js, MongoDB and
               razorpay API integration with fetching functionality{" "}
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
