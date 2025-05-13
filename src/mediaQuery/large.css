@@ -5,9 +5,7 @@
     /* margin-top: 50px; */
     box-sizing: border-box;
     font-size: 20px;
-    /* color: red;  */
-    /* color: yellow;  */
-    /* animation-name: slide; */
+
     position: static;
     animation-name: slide;
     animation-duration: 3s;
@@ -180,18 +178,6 @@
     animation: flip 2.25s ease-in-out;
   }
 
-  /* @keyframes flip {
-    0% {
-      rotate: y 400deg;
-    }
-    50% {
-      rotate: y 180deg;
-    }
-    100% {
-      
-      rotate: y 360deg;
-    }
-  } */
   .white_color {
     color: yellow;
   }
@@ -275,7 +261,7 @@
     display: flex;
     /* border: 2px solid rgb(122, 118, 118);
      */
-    border: 2px solid rgba(51, 221, 213, 0.384);
+    /* border: 2px solid rgba(51, 221, 213, 0.384); */
     margin: auto;
     gap: 10px;
     margin-top: 20px;
@@ -288,7 +274,7 @@
     padding: 10px;
   }
   .SkillsDiv div {
-    border: 2px solid rgba(130, 136, 129, 0.459);
+    /* border: 2px solid rgba(130, 136, 129, 0.459); */
     cursor: pointer;
 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -430,7 +416,7 @@
     /* border: 1px solid blue; */
 
     /* background-color: rgba(255, 255, 255, 0.267); */
-    backdrop-filter: blur(100px);
+    /* backdrop-filter: blur(100px); */
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     display: flex;
@@ -440,7 +426,7 @@
     margin-left: 10%;
     /* margin-top: 10px; */
     color: grey;
-    border: 2px solid rgba(150, 147, 147, 0.568);
+    /* border: 2px solid rgba(150, 147, 147, 0.568); */
   }
   .innerPrac > div {
     width: 120px;
