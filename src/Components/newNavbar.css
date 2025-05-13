@@ -8,14 +8,10 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  /* position: sticky; */
   position: fixed;
-  /* top: 0; */
   z-index: 20;
-  /* border: 2px solid blue; */
-  /* width: 100%; */
   backdrop-filter: blur(10px);
-  width: 100vw;
+  width: 100%;
 }
 
 .nav-container {
