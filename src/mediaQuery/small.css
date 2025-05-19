@@ -314,7 +314,7 @@
   }
 
   .about_description {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 90vw;
     margin: auto;
   }
